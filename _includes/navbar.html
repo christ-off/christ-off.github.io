@@ -1,17 +1,12 @@
 <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="/">{{ site.title }}</a>
+        <a class="navbar-brand" href="/">{{ site.title }}</a>{% if page.title %} - {{ page.title }} {% endif %}
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav navbar-light ml-auto">
-                {% if page.title %}
-                <li class="nav-item active">
-                    <a class="nav-link" href="/">{{ page.title }} <span class="sr-only">(current)</span></a>
-                </li>
-                {% endif %}
                 <li class="nav-item">
                     <a class="nav-link disabled" href="/about">About</a>
                 </li>
