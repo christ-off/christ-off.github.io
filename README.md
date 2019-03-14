@@ -14,7 +14,13 @@ Jekyll theming done thanks to :
     
 ## TODO
 
-- Footer
+- Footer (with RSS icon)
 - Feed (via gem)
-- Home (a few posts ?)
-- Default post view    
+- Home : a few posts : display them as nice bootstrap cards
+- Default post view 
+- Posts list page
+- Left column of posts    
+
+## Commands
+
+- `bundle exec jekyll serve --livereload`
