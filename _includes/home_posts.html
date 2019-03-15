@@ -1,27 +1,29 @@
 <section id="posts" class="py-5">
     <div class="container">
-        <div class="row">
-            <div class="col">
-                {% for post in site.posts limit:5 %}
-                <div>
-                    <img src="{{ post.image }}" alt="{{ post.title }}">
-                    <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-                    <p class="text-info lead">
-                        {{ post.date | date: "%b %-d, %Y" }}
-                    </p>
-                    <p>
-                        {% if post.summary %}
-                        {{ post.summary }}
-                        {% else %}
-                        {{ post.excerpt }}
-                        {% endif %}
-                    </p>
-                    <p>
-                        {{ post.tags | array_to_sentence_string  }}
-                    </p>
+        <div class="card-deck">
+            {% for post in site.posts limit:5 %}
+            <div class="card" style="width: 18rem;">
+                <div class="row no-gutters">
+                    <img src="{{ post.image }}" class="card-img-top" alt="{{ post.title }}">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ post.title }}</h5>
+                        <p class="card-text">
+                            {% if post.summary %}
+                            {{ post.summary }}
+                            {% else %}
+                            {{ post.excerpt }}
+                            {% endif %}
+                        </p>
+                        <p class="card-text">
+                            <small class="text-muted">Tags :{{ post.tags | array_to_sentence_string }}</small>
+                            <br/>
+                            <small class="text-muted">{{ post.date | date: "%-d/%m/%Y" }}</small>
+                        </p>
+                        <a href="{{ post.url | prepend: site.baseurl }}" class="card-link">Read Post</a>
+                    </div>
                 </div>
-                {% endfor %}
             </div>
+            {% endfor %}
         </div>
     </div>
 </section>
