@@ -6,7 +6,7 @@
                 <div class="row no-gutters">
                     <img src="{{ post.image }}" class="card-img-top" alt="{{ post.title }}">
                     <div class="card-body">
-                        <h5 class="card-title">{{ post.title }}</h5>
+                        <h5 class="card-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h5>
                         <p class="card-text">
                             {% if post.summary %}
                             {{ post.summary }}
