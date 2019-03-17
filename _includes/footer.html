@@ -1,3 +1,29 @@
+<footer class="py-5">
+    <hr>
+    <div class="container text-center text-info">
+        <div class="row">
+            <div class="col">
+                {% if site.show_social_icons %}
+                {% include social_links.html %}
+                {% endif %}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" class="fa-2x">
+                    <i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i><i
+                        class="fab fa-creative-commons-nc"></i><i class="fab fa-creative-commons-sa"></i>
+                </a>
+                <br/>
+                This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative
+                Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>
+                {{ site.time | date: '%Y' }}.
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Mandatory scripts -->
 <script src="/javascript/jquery-3.3.1.slim.min.js"></script>
 <script src="/javascript/popper.min.js"></script>
 <script src="/javascript/bootstrap.min.js"></script>
