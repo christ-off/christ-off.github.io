@@ -5,12 +5,11 @@ excerpt: Si vous avez déjà écris des tests d'intégration, vous avez probable
 permalink: '/docker_tests_integration'
 category: dev
 published: true
-categories: ['dev']
 tags: ['devoxx', 'docker', 'junit5']
 image: /assets/posts/junit5_docker.png
 ---
 
-# Lancer #Docker pour faire des tests d'intégration (#Java) ?
+# Lancer Docker pour faire des tests d'intégration (Java) ?
 
 Je suis en train de développer pour le fun quelques Lambdas qui doivent s'exécuter dans une stack AWS en utilisant entre autres DynamoDB.  
 Je voulais tester (test d'intégration donc) de concert plusieurs Lambdas : une qui persiste un binaire et l'autre qui le lit.  

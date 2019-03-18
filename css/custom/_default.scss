@@ -1,0 +1,33 @@
+.tag:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f02b";
+  display: inline-block;
+  padding-right: 3px;
+  padding-left: 3px;
+  vertical-align: middle;
+  font-weight:900;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0 0.5rem;
+  background-color: lightgray;
+  white-space: nowrap;
+}
+
+.category:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f49e";
+  display: inline-block;
+  padding-right: 3px;
+  padding-left: 3px;
+  vertical-align: middle;
+  font-weight:900;
+}
+
+.category {
+  display: inline-block;
+  padding: 0 0.5rem;
+  background-color: lightblue;
+  white-space: nowrap;
+}
