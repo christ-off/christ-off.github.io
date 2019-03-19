@@ -3,7 +3,6 @@
         <div class="card-deck">
             {% for post in site.posts limit:5 %}
             <div class="card" style="width: 18rem;">
-                <div class="row no-gutters">
                     <img src="{{ post.image }}" class="card-img-top" alt="{{ post.title }}">
                     <div class="card-body">
                         <h5 class="card-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h5>
@@ -21,8 +20,7 @@
                             <br/>
                             <small class="text-muted">{{ post.date | date: "%-d/%m/%Y" }}</small>
                         </p>
-                    </div>
-                </div>
+                   </div>
             </div>
             {% endfor %}
         </div>
