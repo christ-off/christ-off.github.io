@@ -13,6 +13,7 @@
   padding: 0 0.5rem;
   background-color: lightgray;
   white-space: nowrap;
+  @extend .rounded-pill;
 }
 
 .category:before {
@@ -30,4 +31,5 @@
   padding: 0 0.5rem;
   background-color: lightblue;
   white-space: nowrap;
+  @extend .rounded;
 }
