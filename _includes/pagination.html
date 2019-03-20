@@ -1,0 +1,20 @@
+<div id="pager" class="container pb-3">
+    <div class="row">
+        <div class="col text-center">
+            {% if paginator.previous_page %}
+            {% if paginator.page == 2 %}
+            <a class="btn btn-outline-secondary" href="{{ site.baseurl }}/">&larr;&nbsp;Newer posts</a>
+            {% else %}
+            <a class="btn btn-outline-secondary" href="{{ site.baseurl }}/page{{paginator.previous_page}}/">&larr;&nbsp;Newer posts</a>
+            {% endif %}
+            {% else %}
+            <a class="disabled btn btn-outline-secondary">&larr;&nbsp;Newer posts</a>
+            {% endif %}
+            {% if paginator.next_page %}
+            <a class="btn btn-outline-secondary" href="{{ site.baseurl }}/page{{paginator.next_page}}/">Older posts&nbsp;&rarr;</a>
+            {% else %}
+            <a class="disabled btn btn-outline-secondary">Older posts&nbsp;&rarr;</a>
+            {% endif %}
+        </div>
+    </div>
+</div>
