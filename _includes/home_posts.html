@@ -2,9 +2,9 @@
     <div class="card-deck">
         {% for post in site.posts limit:4 %}
         <div class="card" style="width: 18rem;">
-            <img src="{{ post.image }}" class="card-img-top" alt="{{ post.title }}">
+            <img src="{{site.url}}{{ site.baseurl}}{{ post.image }}" class="card-img-top" alt="{{ post.title }}">
             <div class="card-body">
-                <h5 class="card-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h5>
+                <h5 class="card-title"><a href="{{site.url}}{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></h5>
                 <p class="card-text">
                     {% if post.summary %}
                     {{ post.summary }}
@@ -15,7 +15,7 @@
                 <p class="card-text">
                     {% if post.category %}
                     <small class="text-gray">
-                        <a href="/categories/#{{ post.category | slugify }}" class="category">
+                        <a href="{{site.url}}{{ site.baseurl}}/categories/#{{ post.category | slugify }}" class="category">
                             {{ post.category }}
                         </a>
                     </small>
@@ -23,7 +23,7 @@
                     {% endif %}
                     {% for tag in post.tags %}
                     <small class="text-gray">
-                        <a href="/tags/#{{ tag | slugify }}" class="tag">{{ tag }}</a>
+                        <a href="{{site.url}}{{ site.baseurl}}/tags/#{{ tag | slugify }}" class="tag">{{ tag }}</a>
                     </small>
                     {% endfor %}
                     <br/>
