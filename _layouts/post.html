@@ -7,7 +7,8 @@
     <div class="row">
         <div class="col-1"></div>
         <div class="col-9">
-            <img src="{{ page.image | prepend: site.baseurl }}" class="img-fluid mx-auto d-block" alt="{{ page.title }}">
+            <img src="{{ page.image | prepend: site.baseurl }}" class="img-fluid mx-auto d-block"
+                 alt="{{ page.title }}">
         </div>
         <div class="col-2"></div>
     </div>
@@ -15,9 +16,24 @@
         <div class="col-1"><!-- Blank left column --></div>
         <div class="col-9" id="content">{{ content }}</div>
         <div class="col-2">
-            <!--
-                tags, info, ...
-            -->
+            <div class="card border-secondary" style="width: 18rem;">
+                <div class="card-header">Informations</div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Date : {{ page.date | date: "%-d/%m/%Y" }}</li>
+                    <li class="list-group-item">Category :
+                        {% if page.category %}
+                        <a href="{{ site.baseurl }}/categories/#{{ page.category | slugify }}" class="category">
+                            {{ page.category }}
+                        </a>
+                        {% endif %}
+                    </li>
+                    <li class="list-group-item">Tags :
+                        {% for tag in page.tags %}
+                        <a href="{{ site.baseurl}}/tags/#{{ tag | slugify }}" class="tag">{{ tag }}</a>
+                        {% endfor %}
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
