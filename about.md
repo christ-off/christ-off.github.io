@@ -1,6 +1,6 @@
 # About this site
 
-## Sources / Credits
+## Sources
 
 Jekyll theming done thanks to :
 
@@ -13,3 +13,7 @@ Jekyll theming done thanks to :
   - <https://github.com/the-prism/Jekyll-Bootstrap>
 - Tag page done without plugins thanks to :
   - <http://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/>
+  
+## Credits
+
+- Keyboard <https://www.pexels.com/photo/black-laptop-computer-keyboard-163130/>
