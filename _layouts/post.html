@@ -4,60 +4,54 @@
 <body>
 {% include navbar.html %}
 <div class="container">
-    <div class="row">
-        <div class="col-1"></div>
-        <div class="col-9">
+
+    <div class="row mb-4">
+        <div class="col">
             <img src="{{ page.image | prepend: site.baseurl }}" class="img-fluid mx-auto d-block"
-                 alt="{{ page.title }}">
+                 alt="{{ page.title }}"/>
         </div>
-        <div class="col-2"></div>
     </div>
-    <div class="row">
-        <div class="col-1"><!-- Blank left column --></div>
-        <div class="col-9" id="content">{{ content }}</div>
-        <div class="col-2">
-            <div class="card border-secondary" style="width: 18rem;">
-                <div class="card-header">Informations</div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Date : {{ page.date | date: "%-d/%m/%Y" }}</li>
-                    <li class="list-group-item">Category :
-                        {% if page.category %}
-                        <a href="{{ site.baseurl }}/categories/#{{ page.category | slugify }}" class="category">
-                            {{ page.category }}
-                        </a>
-                        {% endif %}
-                    </li>
-                    <li class="list-group-item">Tags :
-                        {% for tag in page.tags %}
-                        <a href="{{ site.baseurl}}/tags/#{{ tag | slugify }}" class="tag">{{ tag }}</a>
-                        {% endfor %}
-                    </li>
-                </ul>
+
+    <div class="row mb-2">
+
+        <div class="col-12 col-lg-8 mb-2" id="content">{{ content }}</div>
+        <div class="col-12 col-lg-4">
+
+            <div class="row">
+
+                <div class="col">
+
+                    <div class="card border-secondary mx-auto" style="width: 18rem;">
+                        <div class="card-header">Informations</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Date : {{ page.date | date: "%-d/%m/%Y" }}</li>
+                            <li class="list-group-item">Category :
+                                {% if page.category %}
+                                <a href="{{ site.baseurl }}/categories/#{{ page.category | slugify }}" class="category">
+                                    {{ page.category }}
+                                </a>
+                                {% endif %}
+                            </li>
+                            <li class="list-group-item">Tags :
+                                {% for tag in page.tags %}
+                                <a href="{{ site.baseurl}}/tags/#{{ tag | slugify }}" class="tag">{{ tag }}</a>
+                                {% endfor %}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
+
     </div>
+
     <div class="row">
         <div class="col-12">
-        <!-- start disqus-->
-        <div id="disqus_thread"></div>
-        <script>
-            var disqus_config = function () {
-                this.page.url = '{{ site.url }}{{ page.url }}';
-                this.page.identifier = '{{ site.url }}{{ page.id }}';
-            };
-            (function () { // DON'T EDIT BELOW THIS LINE
-                var d = document, s = d.createElement('script');
-                s.src = 'https://christ-off-github-io.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
-                Disqus.</a></noscript>
-        <!-- end disqus -->
+            {% include disqus.html %}
         </div>
     </div>
+    {% include footer.html %}
+
 </div>
-{% include footer.html %}
 </body>
 </html>
