@@ -121,14 +121,13 @@ describe('Testing Father with Son', () => {
     test('should say', (done) => {
         // Given
         son.reply.mockImplementation( (callback) => { callback("XXXX"); });
-        // When
+        // Then
         function callback(data) {
             expect(data).toBe("-- Father : I am your father XXXX");
             done();
         }
+        // When
         tested.saysToSon(callback);
-        // Then
-
     });
 
 });
