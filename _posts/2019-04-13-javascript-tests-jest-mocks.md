@@ -10,9 +10,9 @@ image: /assets/posts/2019-04-13-javascript-tests-jest-mocks.png
 
 ## Purpose of this post
 
-With a module A requires a module B
-When I want to test A 
-Show how to replace B by a mock
+With a module A requiring a module B  
+When I want to test A  
+Show how to replace B by a mock using JestJS
 
 ## Context
 
@@ -20,8 +20,8 @@ I am a Java developper. I am a heavy user of [Mockito](https://site.mockito.org/
 Often, I need to test a service and replace external systems, injected into my service, by Mocks.  
 I use ["Inject Mocks"](https://static.javadoc.io/org.mockito/mockito-core/2.27.0/org/mockito/InjectMocks.html).
 
-I need to be able to do this in Javascript.  
-I am write "lambdas" for AWS.  
+I need to do this in Javascript.  
+As I write "lambdas" for AWS.  
 I need to test them and avoid calling S3, SNS, DynamoDB, ...
 
 Let's say we have a "Father" and a "Son".   
@@ -79,7 +79,7 @@ describe('Testing Father with Son', () => {
 
 });
 {% endhighlight %}
-
+K
 ## asynchronous test with callbacks
 
 Mocking a function with a callback is easy
