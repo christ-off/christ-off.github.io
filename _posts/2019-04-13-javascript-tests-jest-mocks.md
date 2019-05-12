@@ -4,7 +4,7 @@ title: "Javascript unit tests : 'Injecting mocks' with Jest"
 excerpt: How to replace a module, a function by a mock when testing
 category: dev
 published: true
-tags: ["javascript", "tests"]
+tags: ["Javascript", "Tests"]
 image: /assets/posts/2019-04-13-javascript-tests-jest-mocks.png
 ---
 

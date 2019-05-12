@@ -5,7 +5,7 @@ excerpt: Si vous avez déjà écris des tests d'intégration, vous avez probable
 permalink: '/docker_tests_integration'
 category: dev
 published: true
-tags: ['devoxx', 'docker', 'junit5', 'java']
+tags: ['Devoxx', 'Docker', 'Java', 'Tests']
 image: /assets/posts/junit5_docker.png
 ---
 

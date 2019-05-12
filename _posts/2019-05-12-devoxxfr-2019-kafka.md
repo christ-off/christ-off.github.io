@@ -4,7 +4,7 @@ title: Devoxx 2019 - Kafka
 excerpt: Les universités, conférences et labs Kafka au Devoxx France 2019
 category: conference
 published: false
-tags: ['devoxx', 'kafka']
+tags: ['Devoxx', 'Kafka']
 image: /assets/posts/devoxxfr_2019/devoxxfr_2019.jpg
 ---
 
