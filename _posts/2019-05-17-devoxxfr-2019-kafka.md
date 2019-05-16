@@ -3,17 +3,18 @@ layout: post
 title: Devoxx 2019 - Kafka
 excerpt: Les universités, conférences et labs Kafka au Devoxx France 2019
 category: conference
-published: false
 tags: ['Devoxx', 'Kafka']
-image: /assets/posts/devoxxfr_2019/devoxxfr_2019.jpg
+image: /assets/posts/kafka.png
 ---
 
 ## Introduction
 
-Il y avait tout ce qu'il faut pour découvrir Kafka à Deovxx France 2019.
-- Une université pour se familiariser avec les concepts de Kafka
-- Un Hands-on pour mettre les mains dedans
-- Une conférence pour recevoir un vrai retour d'expérience de ceux qui maitrisent
+For english : [Introduction to Kafka](https://christ-off.github.io/introduction_kafka)
+J'ai regroupé ici L'université, le Hands-on (filmé !) et la conférence Kafka à Devoxx FR 2019.  
+Pour une vue d'ensemble :
+- [Devoxx - Jour 1](https://christ-off.github.io/devoxxfr-2019-jour1/)
+- [Devoxx - Jour 2](https://christ-off.github.io/devoxxfr-2019-jour2/)
+- [Devoxx - Jour 3](https://christ-off.github.io/devoxxfr-2019-jour3/)
 
 ## Les intervenants 
 
@@ -23,7 +24,7 @@ Il y avait tout ce qu'il faut pour découvrir Kafka à Deovxx France 2019.
 
 ## L'université : Apache Kafka, de haut en bas
 
-Découvrez les concepts de base de Kafka et les services qu'il offre 
+Découvrez les concepts de base de Kafka et les services qu'il offre.  s
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KWAELycyxTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -36,6 +37,8 @@ Découvrez les concepts de base de Kafka et les services qu'il offre
 Un hands-on avec des exercices pour pratiquer sur sa machine (Docker requis bien sûr)  
 Le lab fut l'occasion d'échanger avec les deux speakers qui maitrisent le sujet autour de vraies questions, de vraies problématiques d'utilisateurs de Kafka et de faire quelques étapes importantes du Lab.  
 Le repository Git comprend 19 étapes pour pratiquer concrètement Kafka sur sa machine !      
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rF1AdbeJTyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Liens :
   - [Le CFP](https://cfp.devoxx.fr/2019/talk/ZAO-0738/Apache_Kafka_-_les_mains_dedans)
