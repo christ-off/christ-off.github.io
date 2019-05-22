@@ -13,6 +13,8 @@ Jekyll theming done thanks to :
   - <https://github.com/the-prism/Jekyll-Bootstrap>
 - Tag page done without plugins thanks to :
   - <http://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/>
+- Add DuckDuckGo search
+  - <https://jonbeebe.net/2017/07/duckduckgo-site-search/>  
   
 ## Credits
 
