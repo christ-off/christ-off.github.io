@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Devoxx 2019 - Kafka
-excerpt: Les universités, conférences et labs Kafka au Devoxx France 2019
+excerpt: Les universités, conférences et labs Kafka au Devoxx France 2019 par Florent Ramière, Jean-Louis Boudart et Nicolas Romanetti
 category: conference
 tags: ['Devoxx', 'Kafka']
 image: /assets/posts/kafka.png
@@ -9,9 +9,9 @@ image: /assets/posts/kafka.png
 
 ## Introduction
 
-For english : [Introduction to Kafka](https://christ-off.github.io/introduction_kafka)
-J'ai regroupé ici L'université, le Hands-on (filmé !) et la conférence Kafka à Devoxx FR 2019.  
-Pour une vue d'ensemble :
+For english readers -> [Introduction to Kafka](https://christ-off.github.io/introduction_kafka)  
+J'ai regroupé dans ce post l'université, le Hands-on (filmé !) et la conférence Kafka à Devoxx FR 2019.  
+Pour une vue d'ensemble de DevoxxFR 2019 :
 - [Devoxx - Jour 1](https://christ-off.github.io/devoxxfr-2019-jour1/)
 - [Devoxx - Jour 2](https://christ-off.github.io/devoxxfr-2019-jour2/)
 - [Devoxx - Jour 3](https://christ-off.github.io/devoxxfr-2019-jour3/)
