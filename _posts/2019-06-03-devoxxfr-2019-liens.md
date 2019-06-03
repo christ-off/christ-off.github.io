@@ -21,5 +21,7 @@ J'en ai trouvé d'autres :
 - [Loic's blog - Devoxx France 2019](http://www.loicmathieu.fr/wordpress/informatique/devoxx-france-2019/)
 - [Xebia - Une journée à Devoxx, l’avis des Xebians](http://blog.xebia.fr/2019/05/13/37691/)
 - [We Scale](https://blog.wescale.fr/2019/04/23/devoxx-france-2019/)
+- [Ineat-conseil](https://blog.ineat-conseil.fr/2019/05/devoxx-france-2019-jour-2/)
+- [Worldline](https://blog.worldline.tech/2019/05/23/devoxx-2019.html)
 
 N'hésitez pas à m'indiquer d'autres articles à l'aide des commentaires  
