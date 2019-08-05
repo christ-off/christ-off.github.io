@@ -1,0 +1,43 @@
+# Site settings
+title: Christophe's blog
+email: 4630125+christ-off@users.noreply.github.com
+description: My blog about dev mainly Java and Spring
+url: https://christ-off.github.io
+author: christ-off
+
+# Social icons
+show_social_icons: true
+github_username: Christ-OFF
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+
+paginate: 4
+
+defaults:
+  - scope:
+      path:            "404.html"
+    values:
+      sitemap:         false
+  - scope:
+      path:            "googlef4eb191109cf8ea9.html"
+    values:
+      sitemap:         false
+  - scope:
+      path:            "BingSiteAuth.xml"
+    values:
+      sitemap:         false
+  - scope:
+      path:            "yandex_aa9e6537baa6b262.html"
+    values:
+      sitemap:         false    
+
+# Build settings
+permalink: :title/
+sass:
+  sass_dir: css
+
+#Exclude
+exclude: [".idea"]
