@@ -20,15 +20,19 @@ image: /assets/posts/2019-08-06-tests-links.jpg
 - [Baeldung - JUnit 5 Conditional Test](https://www.baeldung.com/junit-5-conditional-test-execution)
 - Outline of the Medium post [Dynamic Testing in JUnit 5; a Practical Guide](https://outline.com/gjVPHL)
 
-## Mocking
+## Mocking, stubbing and contracts
 
 - [Baeldung - Mocking a RestTemplate in Spring](https://www.baeldung.com/spring-mock-rest-template)
-
-## Integration tests
-
 - [Spring Security for Spring Boot Integration Tests](https://www.baeldung.com/spring-security-integration-tests)
+- [Spring Boot WebClient and Unit Testing](https://dzone.com/articles/spring-boot-webclient-and-its-testing)
+- [Contract Tests in the Enterprise. Marcin Grzejszczak, Pivotal - Video](https://www.youtube.com/watch?v=yQjcDlibdWM)
+- [Migration to Mockito 2.1](https://asolntsev.github.io/en/2016/10/11/mockito-2.1/)
 
 ## Other
 
 - The BEST resource for to stay up-to-date [Petri Kainulainen's Java Testing Weekly](https://www.petrikainulainen.net/blog/)
 - [Baeldung - How to Test the @Scheduled Annotation](https://www.baeldung.com/spring-testing-scheduled-annotation)
+
+## Updates
+
+- 2019-08-14 : Add "Spring Boot WebClient and Unit Testing", "Contract Tests in the Enterprise. Marcin Grzejszczak, Pivotal" and "Migration to Mockito 2.1"
