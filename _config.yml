@@ -8,6 +8,7 @@ author: christ-off
 # Social icons
 show_social_icons: true
 github_username: Christ-OFF
+mastodon_profile: https://framapiaf.org/@christ_off_
 
 plugins:
   - jekyll-feed
