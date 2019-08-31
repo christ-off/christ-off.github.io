@@ -9,6 +9,7 @@ author: christ-off
 show_social_icons: true
 github_username: Christ-OFF
 mastodon_profile: https://framapiaf.org/@christ_off_
+twitter_username: PostTenebrasDev
 
 plugins:
   - jekyll-feed
