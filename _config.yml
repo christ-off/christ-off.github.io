@@ -31,10 +31,6 @@ defaults:
       path:            "BingSiteAuth.xml"
     values:
       sitemap:         false
-  - scope:
-      path:            "yandex_aa9e6537baa6b262.html"
-    values:
-      sitemap:         false    
 
 # Build settings
 permalink: :title/
