@@ -3,7 +3,7 @@ layout: post
 title: Tests links
 excerpt: Useful links about tests
 category: links
-tags: ['tests', 'Spring' ]
+tags: ['Tests', 'Spring' ]
 image: /assets/posts/2019-08-06-tests-links.jpg
 ---
 
