@@ -10,6 +10,7 @@ show_social_icons: true
 github_username: Christ-OFF
 mastodon_profile: https://diaspodon.fr/@Christ_OFF_
 twitter_username: PostTenebrasDev
+linkedin_profile: christophe-c-a9ba79197
 
 plugins:
   - jekyll-feed
