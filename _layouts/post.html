@@ -5,49 +5,52 @@
 {% include navbar.html %}
 <div class="container">
 
-    <div class="row mb-4">
+  <div class="row mb-4">
+    <div class="col">
+      <img src="{{ page.image | prepend: site.baseurl }}" class="img-fluid mx-auto d-block"
+           alt="{{ page.title }}"/>
+    </div>
+  </div>
+
+  <div class="row mb-2">
+
+
+    {% if page.title %}
+    <div class="col-12 col-lg-8 mb-2" id="pagetitle"><h1>{{ page.title }}</h1></div>
+    {% endif %}
+    <div class="col-12 col-lg-8 mb-2" id="content">{{ content }}</div>
+    <div class="col-12 col-lg-4">
+
+      <div class="row">
+
         <div class="col">
-            <img src="{{ page.image | prepend: site.baseurl }}" class="img-fluid mx-auto d-block"
-                 alt="{{ page.title }}"/>
+
+          <div class="card border-secondary mx-auto" style="width: 18rem;">
+            <div class="card-header">Informations</div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Date : {{ page.date | date: "%-d/%m/%Y" }}</li>
+              <li class="list-group-item">Category :
+                {% if page.category %}
+                <a href="{{ site.baseurl }}/categories/#{{ page.category | slugify }}" class="category">
+                  {{ page.category }}
+                </a>
+                {% endif %}
+              </li>
+              <li class="list-group-item">Tags :
+                {% for tag in page.tags %}
+                <a href="{{ site.baseurl}}/tags/#{{ tag | slugify }}" class="tag">{{ tag }}</a>
+                {% endfor %}
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </div>
 
-    <div class="row mb-2">
+  </div>
 
-
-        {% if page.title %}<div class="col-12 col-lg-8 mb-2" id="pagetitle"><h1>{{ page.title }}</h1></div>{% endif %}
-        <div class="col-12 col-lg-8 mb-2" id="content">{{ content }}</div>
-        <div class="col-12 col-lg-4">
-
-            <div class="row">
-
-                <div class="col">
-
-                    <div class="card border-secondary mx-auto" style="width: 18rem;">
-                        <div class="card-header">Informations</div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Date : {{ page.date | date: "%-d/%m/%Y" }}</li>
-                            <li class="list-group-item">Category :
-                                {% if page.category %}
-                                <a href="{{ site.baseurl }}/categories/#{{ page.category | slugify }}" class="category">
-                                    {{ page.category }}
-                                </a>
-                                {% endif %}
-                            </li>
-                            <li class="list-group-item">Tags :
-                                {% for tag in page.tags %}
-                                <a href="{{ site.baseurl}}/tags/#{{ tag | slugify }}" class="tag">{{ tag }}</a>
-                                {% endfor %}
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    {% include footer.html %}
+  {% include footer.html %}
+  {% include goat_counter.html %}
 
 </div>
 </body>
