@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'github-pages', '>= 202', group: :jekyll_plugins
-gem 'jekyll-feed'
-gem 'jekyll-sitemap'
+gem 'github-pages', '>= 204', group: :jekyll_plugins
+gem 'jekyll-feed', '>= 0.13.0'
+gem 'jekyll-sitemap', '>= 1.4.0'
 gem 'jekyll-paginate'
