@@ -1,3 +1,1 @@
-# Note
-
-Repo for <https://christ-off.github.io/>
+[![CodeQL](https://github.com/christ-off/christ-off.github.io/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/christ-off/christ-off.github.io/actions/workflows/codeql-analysis.yml)
