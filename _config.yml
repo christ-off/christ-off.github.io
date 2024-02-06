@@ -36,4 +36,4 @@ sass:
   sass_dir: css
 
 #Exclude
-exclude: [".idea"]
+exclude: [ "etc", "README.md" , "vendor"]
