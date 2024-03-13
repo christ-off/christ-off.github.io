@@ -1,7 +1,9 @@
 ---
 ---
 
-@import 'bootstrap/bootstrap';
+@import "custom/variables";
+
+@import 'bootstrap/bootstrap.scss';
 @import "fontawesome/fontawesome.scss";
 @import "fontawesome/solid.scss";
 @import "fontawesome/brands";
@@ -10,6 +12,5 @@
 @import "custom/content";
 @import "custom/social_links";
 @import "custom/default";
-@import "custom/pagination";
 @import "custom/post";
 @import "solarized-dark";

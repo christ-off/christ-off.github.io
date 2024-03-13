@@ -3,7 +3,7 @@
    ******************************/
 // heading style for a code section
 h5 {
-  background: none repeat scroll 0% 0% $code-heading-background;
+  background: none repeat scroll 0% 0% #dededc;
   font-size: 14px;
   font-weight: bold;
   padding: 10px 15px;
@@ -17,7 +17,7 @@ h5 {
     font-size: 18px;
     padding: 10px;
     code {
-      color: $code-text-color;
+      color: #b6b6b6;
     }
   }
 }
@@ -27,7 +27,7 @@ h5 {
   color: $gray-900;
   padding-right: 5px;
   float: right;
-  background: $code-heading-background;
+  background: #dededc;
   border: 0;
   font-size: 12px;
   margin-top: -30px;

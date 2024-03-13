@@ -1,30 +1,14 @@
-<div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="/">
-            <img src="{{ '/img/favicon-32x32.png' | prepend: site.baseurl }}" alt="Logo CC"
-                 class="d-inline-block align-top">
-            {{ site.title }}
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav navbar-light ml-auto">
-                <li class="nav-item"><a class="nav-link" href="{{ '/categories/' | prepend: site.baseurl }}"><i
-                        class="fas fa-box-open"></i>&nbsp;Categories</a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="{{ '/tags/' | prepend: site.baseurl }}"><i
-                        class="fas fa-tags"></i>&nbsp;Tags</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ '/about/' | prepend: site.baseurl }}"><i
-                        class="fas fa-info-circle"></i>&nbsp;About</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ '/feed.xml' | prepend: site.baseurl }}"><i
-                        class="fas fa-rss"></i></a></li>
-                <form class="form-inline my-2 my-lg-0" onsubmit="duckSearch()" action="javascript:void(0)">
-                    <input id="searchField" class="form-control mr-sm-1" type="search" placeholder="Rechercher" aria-label="Rechercher">
-                    <button class="btn my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-                </form>
-            </ul>
-        </div>
-    </nav>
-</div>
+<div class="container-fluid"><div class="row"><div class="col">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary nav-underline">
+    <a id="pagetop" class="navbar-brand" href="/"><img src="{{ '/img/favicon-32x32.png' | prepend: site.baseurl }}" alt="Logo CC" class="d-inline-block align-top">{{ site.title }}</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="{{ '/categories/' | prepend: site.baseurl }}"><i class="fas fa-box-open"></i>&nbsp;Categories</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ '/tags/' | prepend: site.baseurl }}"><i class="fas fa-tags"></i>&nbsp;Tags</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ '/about/' | prepend: site.baseurl }}"><i class="fas fa-info-circle"></i>&nbsp;About</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ '/feed.xml' | prepend: site.baseurl }}"><i class="fas fa-rss"></i>&nbsp;Feed</a></li>
+      </ul>
+    </div>
+  </nav>
+</div></div></div>

@@ -1,5 +1,5 @@
 .tag:before {
-  font-family: "Font Awesome 5 Free";
+  font: var(--fa-font-solid);
   content: "\f02b";
   display: inline-block;
   padding-right: 3px;
@@ -17,7 +17,7 @@
 }
 
 .category:before {
-  font-family: "Font Awesome 5 Free";
+  font: var(--fa-font-solid);
   content: "\f49e";
   display: inline-block;
   padding-right: 3px;

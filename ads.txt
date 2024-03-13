@@ -1,0 +1,5 @@
+---
+layout: none
+nositemap: "yes"
+---
+placeholder.example.com, placeholder, DIRECT, placeholder

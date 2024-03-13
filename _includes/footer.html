@@ -1,13 +1,7 @@
 <footer class="py-5">
     <hr>
     <div class="container text-center text-info">
-        <div class="row">
-            <div class="col">
-                {% if site.show_social_icons %}
-                {% include social_links.html %}
-                {% endif %}
-            </div>
-        </div>
+        <div class="row"><div class="col"><div class="social-links"><a target="_blank" href="https://github.com/{{ site.github_username }}"><i class="fab fa-github fa-2x"></i></a></div></div></div>
         <div class="row">
             <div class="col">
                 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" class="fa-2x">
@@ -24,9 +18,7 @@
 </footer>
 
 <!-- Mandatory scripts -->
-<script src="{{ '/javascript/jquery-3.4.1.slim.min.js' | prepend: site.baseurl }}"></script>
-<script src="{{ '/javascript/popper.min.js' | prepend: site.baseurl }}"></script>
-<script src="{{ '/javascript/bootstrap.min.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/javascript/bootstrap.bundle.min.js' | prepend: site.baseurl }}"></script>
 
 <script src="{{ '/javascript/clipboard.min.js' | prepend: site.baseurl }}" async></script>
 <script src="{{ '/javascript/codeselect.js' | prepend: site.baseurl }}" async></script>

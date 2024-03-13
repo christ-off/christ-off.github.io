@@ -1,3 +1,9 @@
+---
+layout: page
+title: About this website
+excerpt: Who am ?
+---
+
 # About this site
 
 ## Sources
@@ -13,8 +19,6 @@ Jekyll theming done thanks to :
   - [Jekyll Bootstrap](https://github.com/the-prism/Jekyll-Bootstrap)
 - Tag page done without plugins thanks to :
   - [Tags and Catagories](http://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/)
-- Add DuckDuckGo search
-  - [Add DuckDuckGo](https://jonbeebe.net/2017/07/duckduckgo-site-search/)
   
 ## Credits
 
