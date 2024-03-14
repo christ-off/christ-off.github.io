@@ -1,0 +1,57 @@
+---
+layout: none
+nositemap: "yes"
+---
+Sitemap: https://post-tenebras-lire.net/sitemap.xml
+
+# disallow side content
+user-agent: *
+disallow: /assets/
+
+# disallow Ads
+
+user-agent: AdIdxBot
+user-agent: AdsBot-Google-Mobile
+user-agent: AdsBot-Google
+user-agent: Google-adstxt
+disallow: /
+
+# Disable AI
+
+user-agent: Amazonbot
+user-agent: Applebot
+user-agent: Bytespider
+user-agent: CCBot
+user-agent: ChatGPT-User
+user-agent: FacebookBot
+user-agent: GPTBot
+user-agent: Google-Extended
+user-agent: img2dataset
+user-agent: PerplexityBot
+user-agent: YouBot
+user-agent: anthropic-ai
+user-agent: cohere-ai
+user-agent: omgili
+user-agent: omgilibot
+disallow: /
+
+# SEO
+
+user-agent: AhrefsBot
+disallow: /
+
+# News Images and Video
+
+user-agent: Baiduspider-image
+user-agent: Baiduspider-news
+user-agent: Baiduspider-video
+user-agent: Googlebot-Image
+user-agent: Googlebot-News
+user-agent: Googlebot-Video
+disallow: /
+
+## Other Google
+
+user-agent: Mediapartners-Google
+user-agent: GoogleOther
+disallow: /

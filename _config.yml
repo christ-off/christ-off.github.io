@@ -6,34 +6,15 @@ url: https://christ-off.github.io
 author: christ-off
 
 # Social icons
-show_social_icons: true
 github_username: Christ-OFF
 
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
+  - jekyll-last-modified-at
 
-paginate: 4
-
-defaults:
-  - scope:
-      path:            "404.html"
-    values:
-      sitemap:         false
-  - scope:
-      path:            "googlef4eb191109cf8ea9.html"
-    values:
-      sitemap:         false
-  - scope:
-      path:            "BingSiteAuth.xml"
-    values:
-      sitemap:         false
+exclude: [ "etc", "README.md" , "vendor"]
+# include:
 
 # Build settings
 permalink: :title/
 sass:
   sass_dir: css
-
-#Exclude
-exclude: [ "etc", "README.md" , "vendor"]
