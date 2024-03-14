@@ -11,7 +11,6 @@ nositemap: "yes"
     {% if site.title %}<title type="html">{{ site.title | smartify | xml_escape }}</title>{% endif %}
     {% if site.description %}<subtitle>{{ site.description | xml_escape }}</subtitle>{% endif %}
     {% if site.author %}<author><name>{{ site.author.name | default: site.author | xml_escape }}</name></author>{% endif %}
-    <category term="Lecture"/>
     {% for tag in site.tags %}<category term="{{ tag[0] | xml_escape}}"/>{% endfor %}
     {% assign posts = site.posts | where_exp: "post", "post.draft != true" | sort: "date" | reverse %}
     {% for post in posts limit: 10 %}
@@ -33,8 +32,8 @@ nositemap: "yes"
             {% for tag in post.tags %}<category term="{{ tag | xml_escape }}" />{% endfor %}
             {% if post.excerpt and post.excerpt != empty %}<summary>{{ post.content | strip_html | strip_newlines | truncatewords: 50 | normalize_whitespace | xml_escape }}</summary>{% endif %}
             {% assign post_image = post.image %}{% if post_image %}
-                <media:thumbnail url="{{ '/assets/posts/' | append: post_image | absolute_url }}" height="320" width="200"/>
-                <media:content url="{{ '/assets/posts/' | append: post_image | absolute_url }}" medium="image" />
+                <media:thumbnail url="{{ post_image | absolute_url }}" height="320" width="200"/>
+                <media:content url="{{ post_image | absolute_url }}" medium="image" />
             {% endif %}
         </entry>
     {% endfor %}
