@@ -54,13 +54,41 @@ Google est une [régie publicitaire](https://www.statista.com/statistics/1093781
 2. Installez le meilleur "bloqueur de nuisances" : [uBlock Origin](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/)
 3. On peut aller plus loin en changeant des paramètres, mais restons simple
 
+### La poste Suisse - Difficulté : Facile, Portée : Suisse
+
+Si vous avez un compte sur le site de la poste suisse, alors sans quelle vous le dise vous avez accepté l'usage de vos données
+
+1. [Identifiez-vous sur le site de la poste](https://www.post.ch/fr)
+2. Rendez-vous sous votre profil > "<i class="fa-solid fa-gear"></i> Paramètres" > ["Connaître les services postaux"](https://service.post.ch/kvm/app/ui/settings/postalservices)  
+   "Mon consentement à de nombreuses informations et prestations passionnantes de la Poste"  
+   Quel humour n'est-ce pas ? "Mon consentement" que je n'ai jamais donné !  
+   "Connaître les services postaux" : c'est plutôt, laissez les services postaux tout connaitre de vous !
+3. Vous verrez que tout est coché  
+   ![Toutes les coches sont actives](/assets/posts/privacy/connaitre-service-postaux.png "Connaître les services postaux")
+4. Décochez "Connaître les services postaux" 
+   Tous les autres en dessous vont se décocher
+5. Rendez-vous sous votre profil > "<i class="fa-solid fa-gear"></i> Paramètres" > ["Prendre connaissance des offres de tiers"](https://service.post.ch/kvm/app/ui/settings/thirdpartyoffers)
+   Idem tout est coché et vous avez donné votre consentement à ce que des tiers connaissent votre centre d'intérêts
+6. Encore une fois tout est coché
+   ![Toutes les coches sont actives](/assets/posts/privacy/poste_offre_tiers.png "Prendre connaissance des offres de tiers")
+7. Décochez "Prendre connaissance des offres de tiers"
+8. Tout va se décocher et la liste et longue
+
+Je vous laisse lire la ["Déclaration de protection des données"](https://www.post.ch/fr/pages/footer/protection-des-donnees-et-informations-legales/declaration-de-protection-des-donnees).  
+Je trouve certains paragraphes d'un mépris pour mes données personnelles comme :  
+"Nous transmettons vos données personnelles à d'autres entreprises qui peuvent décider elles-mêmes comment elles les utilisent."
+
+### Supercard Coop - Difficulté : ????, Portée : Suisse
+
+J'ai fait la demande de suppression de ma Supercard. C'est en cours.
+
 ### Smartphone - Difficulté : Facile, Portée : Universelle
 
 **N'installez pas l'application mobile de la marque, du magasin, ...**  
 Le site web pour mobile est suffisant !  
 Ignorez les messages "Pitié, installez notre super application qui aspire le plus de données possibles".  
 
-Si vous voulez vraiment l'application, faites un tour sur [Exodus Privacy](https://reports.exodus-privacy.eu.org/fr/)
+Si vous voulez vraiment l'application, faites un tour sur [Exodus Privacy](https://reports.exodus-privacy.eu.org/fr/) **avant** d'installer.
 
 Quelques exemples :
 
@@ -89,12 +117,11 @@ Quelques exemples :
 
 ## 3. Faire supprimer ses données
 
-Le mal est fait. Mes données ont déjà été collectées.  
+Le mal est fait. Mes données ont déjà été collectées. Je peux demander qu'elles soient effacées.    
 Voici ce que j'ai entrepris et les résultats de mes démarches auprès de différents data-brokers opérant en Suisse.  
-Ils opèrent tous au moins en Europe aussi !  
-Je commence par un mail.  
+Ils opèrent tous au moins en Europe aussi.
 Si je dois prouver qui je suis, je transmets une copie de mes papiers d'identité **avec un filigrane** via [Filigrane Facile](https://filigrane.beta.gouv.fr/).    
-Et oui, il faut parfois transmettre plus de données personnelles pour en faire supprimer !
+Et oui, il faut parfois transmettre des données personnelles en plus pour en faire supprimer !
 
 ### AZ Direct
 
@@ -106,15 +133,26 @@ Et oui, il faut parfois transmettre plus de données personnelles pour en faire 
 ### Nielsen 
 
 * Coordonnées : [Nielsen en Suisse](https://www.nielsen.com/fr/about-us/locations/switzerland/)
-* Formulaire d'"Opt-out" d'email : [Nielsen Marketing Cloud Opt-Out](https://sites.nielsen.com/legal/privacy-statement/exelate-privacy-policy/opt-in-opt-out/)
-  Ceci me semble nettement insufisant !
-* Demarches 
+* Formulaire d'"Opt-out" d'email : [Nielsen Marketing Cloud Opt-Out](https://sites.nielsen.com/legal/privacy-statement/exelate-privacy-policy/opt-in-opt-out/)  
+  Ceci me semble nettement insuffisant !
+* Démarches : 
   * Formulaire : 
     * Soumis le 15/03/2024
-    * En attente de réponse
+    * Réponse le 16/03/2024 qui me renvoie au formulaire "One trust" ci-dessous.
   * Le "privacy department"
     * e-mail envoyé le 15/03/2024, L'email est inutile, Remplissez directement le formulaire ["One Trust](https://privacyportal-de.onetrust.com/webform/70b0083d-d519-4ad2-84ca-96b7c5f8e1a9/9810a8bc-e54d-4d70-bac0-5e4d781ef5b9)
     * Formulaire "One Trust" (quel nom qui inspire confiance n'est-ce pas ?) : 15/03/2024
     * En attente du traitement : j'ai immédiatement reçu numéro de ticket
   
 ### D'autres à venir !
+
+## 4. One Trust
+
+J'ai rencontré plusieurs fois "Portail One Trust".  
+Certaines entreprises semblent déléguer les demandes de suppression à une autre société.  
+C'est aberrant ! C'est deux fois aberrant !  
+
+1. Vous demandez que vos données soient effacées de la société "A"
+2. Vous devez donner des informations personnelles à une autre société "B".
+3. Pour que la Société "B" s'assure que vos données sont effacées partout dans les systèmes informatiques de la société "A" ?  
+   Je n'y crois pas. Et au niveau sécurité informatique, n'en parlons pas !
