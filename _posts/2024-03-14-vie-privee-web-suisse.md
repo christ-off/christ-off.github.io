@@ -7,37 +7,35 @@ tags: ['Suisse']
 image: /assets/posts/privacy/poste-publicite.jpeg
 ---
 
-Cette page a pour but de vous aider à garder le contrôle par des moyens simples ou plus avancés.  
-J'indique pour chaque méthode
-- la difficulté
-- la portée : Suisse, Europe, ...
+Cette page vise à vous aider à maintenir le contrôle sur vos données, en utilisant des méthodes simples ou avancées.  
+Je fournis pour chaque méthode :  
+- Niveau de difficulté
+- Portée géographique : Suisse, Europe, ...
 
-Je vais aussi documenter mes demandes de correction, suppression de mes données.  
-Mes démarches administratives se font dans le cadre suisse MAIS bien des recettes sont universelles.
+Je vais également documenter les étapes à suivre pour corriger ou supprimer mes données. Mes démarches administratives sont effectuées en Suisse, mais de nombreuses méthodes sont universelles.
 
-## D'où me vient cette idée ?
+## Origine de cette idée
 
 En Suisse, la [Nouvelle loi sur la protection des données](https://www.kmu.admin.ch/kmu/fr/home/faits-et-tendances/digitalisation/protection-des-donnees/nouvelle-loi-sur-la-protection-des-donnees-nlpd.html) est entrée en vigueur le 1er septembre 2023.  
-Qu'en est-il de la collecte des données, des moyens de s'en protéger, des contre-attaques possibles ?  
-Comment se situe cette loi par rapport à la loi européenne (RGPG) ?  
-J'ai lu ["Razzia sur nos Data" chez "Heidi News"](https://www.heidi.news/explorations/razzia-sur-vos-data).  
-Mon avis de lecture sur le livre qui rassemble le résultat de l'enquête sera posté sur mon autre blog... (lien à venir).
+Quelles sont les implications en matière de collecte et de protection des données, ainsi que les recours disponibles ?  
+Comment cette loi se compare-t-elle au Règlement général sur la protection des données (RGPD) européen ?  
+J'ai lu "Razzia sur nos Data" sur [Heidi News](https://www.heidi.news/explorations/razzia-sur-vos-data).    
+Mon compte rendu de lecture sur le livre, qui résume les résultats de l'enquête, sera publié sur mon autre blog... (lien à venir).
 
 ---
 
 ## 1. Pourquoi s'opposer à la collecte des données ?
 
-Je pourrais vous dire que la vie privée est un droit fondamental, une condition nécessaire à la démocratie, ...  
-Voici plutôt quelques exemples concrets, réels pour constater ce qu'il arrive quand on commercialise notre vie.  
+Je pourrais vous dire que la vie privée est un droit fondamental, une condition nécessaire à la démocratie…  
+Voici plutôt quelques exemples concrets, réels pour constater ce qu’il arrive quand on commercialise notre vie.
 
 * Un automobiliste a vu subitement son assurance automobile faire un bon de 21%   
-  L'article original (payant) : [Automakers Are Sharing Consumers’ Driving Behavior With Insurance Companies](https://www.nytimes.com/2024/03/11/technology/carmakers-driver-tracking-insurance.html)  
-  L'article en accès libre : [Archive](https://web.archive.org/web/20240313200717/https://www.nytimes.com/2024/03/11/technology/carmakers-driver-tracking-insurance.html) 
-* On peut savoir sans recours au "Dark web" [qui rend visite à Donald Trump à Mar-a-Lago](https://www.rollingstone.com/culture/culture-features/data-brokers-trump-tech-spying-privacy-threat-1234897098/) et donc n'importe quel lieu.
+  L’article original (payant) : [Automakers Are Sharing Consumers’ Driving Behavior With Insurance Companies](https://www.nytimes.com/2024/03/11/technology/carmakers-driver-tracking-insurance.html)  
+  L’article en accès libre : [Archive](https://web.archive.org/web/20240313200717/https://www.nytimes.com/2024/03/11/technology/carmakers-driver-tracking-insurance.html)
+* On peut savoir sans recours au « Dark web » [qui rend visite à Donald Trump à Mar-a-Lago](https://www.rollingstone.com/culture/culture-features/data-brokers-trump-tech-spying-privacy-threat-1234897098/) et donc n’importe quel lieu.
 * Les données de localisation utilisées pour cible ceux qui se rendent dans une clinique pour avorter  
   [Data Broker Is Selling Location Data of People Who Visit Abortion Clinics](https://web.archive.org/web/20240313050414/https://www.vice.com/en/article/m7vzjb/location-data-abortion-clinics-safegraph-planned-parenthoo)
-* ... d'autres exemples à venir ...
-
+* … d’autres exemples à venir…
 
 ---
 
@@ -84,7 +82,7 @@ Quelques exemples :
 
 ### DNS - Difficulté : Avancée, Portée : Universelle
 
-à venir
+À venir
 
 
 ---
