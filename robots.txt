@@ -2,7 +2,7 @@
 layout: none
 nositemap: "yes"
 ---
-Sitemap: https://post-tenebras-lire.net/sitemap.xml
+Sitemap: https://christ-off.github.io/sitemap.xml
 
 # disallow side content
 user-agent: *
