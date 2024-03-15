@@ -7,31 +7,116 @@ tags: ['Suisse']
 image: /assets/posts/privacy/poste-publicite.jpeg
 ---
 
-La [Nouvelle loi sur la protection des données](https://www.kmu.admin.ch/kmu/fr/home/faits-et-tendances/digitalisation/protection-des-donnees/nouvelle-loi-sur-la-protection-des-donnees-nlpd.html) est entrée en vigueur le 1er septembre 2023.  
-Qu'en est-il de la collecte des données, des moyens de s'en protéger, des contre-attaques possibles ?  
-
 Cette page a pour but de vous aider à garder le contrôle par des moyens simples ou plus avancés.  
-J'indique pour chaque méthode la difficulté.  
-Je vais aussi documenter mes demandes de correction, suppression de mes données.
+J'indique pour chaque méthode
+- la difficulté
+- la portée : Suisse, Europe, ...
 
+Je vais aussi documenter mes demandes de correction, suppression de mes données.  
 Mes démarches administratives se font dans le cadre suisse MAIS bien des recettes sont universelles.
+
+## D'où me vient cette idée ?
+
+En Suisse, la [Nouvelle loi sur la protection des données](https://www.kmu.admin.ch/kmu/fr/home/faits-et-tendances/digitalisation/protection-des-donnees/nouvelle-loi-sur-la-protection-des-donnees-nlpd.html) est entrée en vigueur le 1er septembre 2023.  
+Qu'en est-il de la collecte des données, des moyens de s'en protéger, des contre-attaques possibles ?  
+Comment se situe cette loi par rapport à la loi européenne (RGPG) ?  
+J'ai lu ["Razzia sur nos Data" chez "Heidi News"](https://www.heidi.news/explorations/razzia-sur-vos-data).  
+Mon avis de lecture sur le livre qui rassemble le résultat de l'enquête sera posté sur mon autre blog... (lien à venir).
+
+---
 
 ## 1. Pourquoi s'opposer à la collecte des données ?
 
-Pas de grands discours, mais des exemples (certes venus des Etats-Unis).  
+Je pourrais vous dire que la vie privée est un droit fondamental, une condition nécessaire à la démocratie, ...  
+Voici plutôt quelques exemples concrets, réels pour constater ce qu'il arrive quand on commercialise notre vie.  
 
-* Un automobilist ... Des fabricants de voiture...   
-  Article original (payant) : [Automakers Are Sharing Consumers’ Driving Behavior With Insurance Companies](https://www.nytimes.com/2024/03/11/technology/carmakers-driver-tracking-insurance.html)
+* Un automobiliste a vu subitement son assurance automobile faire un bon de 21%   
+  L'article original (payant) : [Automakers Are Sharing Consumers’ Driving Behavior With Insurance Companies](https://www.nytimes.com/2024/03/11/technology/carmakers-driver-tracking-insurance.html)  
+  L'article en accès libre : [Archive](https://web.archive.org/web/20240313200717/https://www.nytimes.com/2024/03/11/technology/carmakers-driver-tracking-insurance.html) 
+* On peut savoir sans recours au "Dark web" [qui rend visite à Donald Trump à Mar-a-Lago](https://www.rollingstone.com/culture/culture-features/data-brokers-trump-tech-spying-privacy-threat-1234897098/) et donc n'importe quel lieu.
+* Les données de localisation utilisées pour cible ceux qui se rendent dans une clinique pour avorter  
+  [Data Broker Is Selling Location Data of People Who Visit Abortion Clinics](https://web.archive.org/web/20240313050414/https://www.vice.com/en/article/m7vzjb/location-data-abortion-clinics-safegraph-planned-parenthoo)
+* ... d'autres exemples à venir ...
 
 
-## Faire supprimer ses données ?
+---
+
+## 2. S'opposer à la collecte de données
+
+Il n'y a pas de moyen ultime. Mais des gestes souvent simples et efficaces. 
+
+### Navigateur Web - Difficulté : Facile, Portée : Universelle
+
+**N'utilisez pas Chrome, Utilisez Firefox.**  
+De base, Google Chrome collecte les sites et pages fréquentées. C'est le [Chrome User Experience Report](https://developer.chrome.com/docs/crux).  
+Google va bientôt saboter le blocage des publicités et donc le pistage en ligne.  
+Google est une [régie publicitaire](https://www.statista.com/statistics/1093781/distribution-of-googles-revenues-by-segment/) qui vit de la collecte de données.
+
+1. [Installez Firefox](https://www.mozilla.org/fr/firefox/new/)
+2. Installez le meilleur "bloqueur de nuisances" : [uBlock Origin](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/)
+3. On peut aller plus loin en changeant des paramètres, mais restons simple
+
+### Smartphone - Difficulté : Facile, Portée : Universelle
+
+**N'installez pas l'application mobile de la marque, du magasin, ...**  
+Le site web pour mobile est suffisant !  
+Ignorez les messages "Pitié, installez notre super application qui aspire le plus de données possibles".  
+
+Si vous voulez vraiment l'application, faites un tour sur [Exodus Privacy](https://reports.exodus-privacy.eu.org/fr/)
+
+Quelques exemples :
+
+- L'application de la ["Supercard Coop"](https://reports.exodus-privacy.eu.org/fr/reports/ch.coop.supercard/latest/)
+- ["Temu"](https://reports.exodus-privacy.eu.org/fr/reports/com.einnovation.temu/latest/)
+- Une application de météo ["AccuWeather"]("https://reports.exodus-privacy.eu.org/fr/reports/com.accuweather.android/latest/)
+
+### Démarchage téléphonique - Difficulté : Facile, Portée : Suisse
+
+- Ne pas être dans l'annuaire !
+   Peux-être n'avez-vous pas besoin de ce téléphone fixe qui ne sert qu'à recevoir des appels non désirés ?
+- [Demandez votre suppression de "Local.ch"](https://privacyportal-eu-cdn.onetrust.com/dsarwebform/b9865779-0248-4bd3-86ae-adcc74e59b6c/03029c5e-bf5a-4477-b315-b9b11d80d9ee.html)
+- Sur le site de la Federation Romande des consommateurs, il y a une très utile page : [Appels publicitaires, comment s’en prémunir](https://www.frc.ch/comment-sen-premunir/)
+- Remarque : La liste d'opposition "Robinson" n'est pas respectée par les démarcheurs indélicats
+- [Inscription à sur la liste Robinson](https://sdv-konsumenteninfo.ch/robinsonliste-francais/)
+- Si vous êtes démarchés, prenez bien les coordonnées de l'appelant 
+  et vous pouvez déposer une réclamation via ce formulaire : [Réclamation contre des appels publicitaires indésirables](https://www.seco.admin.ch/seco/fr/home/Werbe_Geschaeftsmethoden/Unlauterer_Wettbewerb/Beschwerde_melden/beschwerde_werbeanruf.html).
+  Ils n'agiront pas s'il ne recoivent pas de multiples réclamations.
+
+### DNS - Difficulté : Avancée, Portée : Universelle
+
+à venir
+
+
+---
+
+## 3. Faire supprimer ses données
 
 Le mal est fait. Mes données ont déjà été collectées.  
-Voici ce que j'ai entrepris et les résultats de mes démarches
+Voici ce que j'ai entrepris et les résultats de mes démarches auprès de différents data-brokers opérant en Suisse.  
+Ils opèrent tous au moins en Europe aussi !  
+Je commence par un mail.  
+Si je dois prouver qui je suis, je transmets une copie de mes papiers d'identité **avec un filigrane** via [Filigrane Facile](https://filigrane.beta.gouv.fr/).    
+Et oui, il faut parfois transmettre plus de données personnelles pour en faire supprimer !
 
 ### AZ Direct
 
-Est une entreprise de collecte de données (un data-broker)
+* Coordonnées : [AZ Direct locations](https://www.az-direct.com/site/en/company/locations) 
+* Démarches
+  * Mail envoyé le 14/03/2024  
+  * Pas de réponse ni même d'accusé de réception le 15/03/2024
 
+### Nielsen 
 
-## Pour aller plus loin
+* Coordonnées : [Nielsen en Suisse](https://www.nielsen.com/fr/about-us/locations/switzerland/)
+* Formulaire d'"Opt-out" d'email : [Nielsen Marketing Cloud Opt-Out](https://sites.nielsen.com/legal/privacy-statement/exelate-privacy-policy/opt-in-opt-out/)
+  Ceci me semble nettement insufisant !
+* Demarches 
+  * Formulaire : 
+    * Soumis le 15/03/2024
+    * En attente de réponse
+  * Le "privacy department"
+    * e-mail envoyé le 15/03/2024, L'email est inutile, Remplissez directement le formulaire ["One Trust](https://privacyportal-de.onetrust.com/webform/70b0083d-d519-4ad2-84ca-96b7c5f8e1a9/9810a8bc-e54d-4d70-bac0-5e4d781ef5b9)
+    * Formulaire "One Trust" (quel nom qui inspire confiance n'est-ce pas ?) : 15/03/2024
+    * En attente du traitement : j'ai immédiatement reçu numéro de ticket
+  
+### D'autres à venir !
