@@ -8,9 +8,6 @@ author: christ-off
 # Social icons
 github_username: Christ-OFF
 
-plugins:
-  - jekyll-last-modified-at
-
 exclude: [ "etc", "README.md" , "vendor"]
 # include:
 
