@@ -35,7 +35,9 @@ Voici plutôt quelques exemples concrets, réels pour constater ce qu’il arriv
 * On peut savoir sans recours au « Dark web » [qui rend visite à Donald Trump à Mar-a-Lago](https://www.rollingstone.com/culture/culture-features/data-brokers-trump-tech-spying-privacy-threat-1234897098/) et donc n’importe quel lieu.
 * Les données de localisation utilisées pour cible ceux qui se rendent dans une clinique pour avorter  
   [Data Broker Is Selling Location Data of People Who Visit Abortion Clinics](https://web.archive.org/web/20240313050414/https://www.vice.com/en/article/m7vzjb/location-data-abortion-clinics-safegraph-planned-parenthoo)
-* … d’autres exemples à venir…
+* Vous êtes gai, vous être prêtre, un groupe de catholiques extrémistes va vous traquer.  
+  [Colorado Catholic group spent millions to identify priests using gay dating apps](https://www.theguardian.com/world/2023/mar/10/colorado-catholic-group-identify-priests-gay-apps)
+* *D'autres exemples à venir*
 
 ---
 
