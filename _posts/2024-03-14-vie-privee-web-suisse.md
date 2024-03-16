@@ -19,8 +19,8 @@ Je vais également documenter les étapes à suivre pour corriger ou supprimer m
 En Suisse, la [Nouvelle loi sur la protection des données](https://www.kmu.admin.ch/kmu/fr/home/faits-et-tendances/digitalisation/protection-des-donnees/nouvelle-loi-sur-la-protection-des-donnees-nlpd.html) est entrée en vigueur le 1er septembre 2023.  
 Quelles sont les implications en matière de collecte et de protection des données, ainsi que les recours disponibles ?  
 Comment cette loi se compare-t-elle au Règlement général sur la protection des données (RGPD) européen ?  
-J'ai lu "Razzia sur nos Data" sur [Heidi News](https://www.heidi.news/explorations/razzia-sur-vos-data).    
-Mon compte rendu de lecture sur le livre, qui résume les résultats de l'enquête, sera publié sur mon autre blog... (lien à venir).
+J'ai lu "Razzia sur nos Data" sur [Heidi News](https://www.heidi.news/explorations/razzia-sur-vos-data).  
+Mon avis sur ce livre est disponible sur mon autre blog : ["Post Tenebras Lire"](https://post-tenebras-lire.net/razzia-data-heidi-news/)
 
 ---
 
