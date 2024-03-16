@@ -7,6 +7,7 @@ author: christ-off
 
 # Social icons
 github_username: Christ-OFF
+mastodon_profile: https://diaspodon.fr/@ptl
 
 exclude: [ "etc", "README.md" , "vendor"]
 # include:
