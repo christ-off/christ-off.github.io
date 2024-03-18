@@ -80,7 +80,9 @@ Je trouve certains paragraphes d'un mépris pour mes données personnelles comme
 
 ### Supercard Coop - Difficulté : ????, Portée : Suisse
 
-J'ai fait la demande de suppression de ma Supercard. C'est en cours.
+La page pour demander votre suppression est assez cachée.  
+La voici : [Nous répondons à vos questions](https://www.coop.ch/content/unternehmen/fr/entreprise/contact/interlocuteur.html).  
+Choisissez "SuperCard" puis "Résiliation"
 
 ### Smartphone - Difficulté : Facile, Portée : Universelle
 
@@ -143,6 +145,8 @@ Et oui, il faut parfois transmettre des données personnelles en plus pour en fa
     * e-mail envoyé le 15/03/2024, L'email est inutile, Remplissez directement le formulaire ["One Trust](https://privacyportal-de.onetrust.com/webform/70b0083d-d519-4ad2-84ca-96b7c5f8e1a9/9810a8bc-e54d-4d70-bac0-5e4d781ef5b9)
     * Formulaire "One Trust" (quel nom qui inspire confiance n'est-ce pas ?) : 15/03/2024
     * En attente du traitement : j'ai immédiatement reçu numéro de ticket
+    * Réponse reçue : 18/03/2024 : "Unless you have had a previous relationship with Nielsen (for example as a member of one of our panels or as an employee or business partner), it is unlikely that we have collected directly identifying data about you".
+    * Donc ils disent ne pas collecter de données indirectement
   
 ### D'autres à venir !
 
