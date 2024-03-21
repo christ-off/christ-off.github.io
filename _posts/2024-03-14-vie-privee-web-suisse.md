@@ -132,7 +132,16 @@ Et oui, il faut parfois transmettre des données personnelles en plus pour en fa
 * Coordonnées : [AZ Direct locations](https://www.az-direct.com/site/en/company/locations) 
 * Démarches
   * Mail envoyé le 14/03/2024  
-  * Pas de réponse ni même d'accusé de réception le 15/03/2024
+  * Réponse reçue le 21/03/2024 avec mes données (ce que j'avait demandé)
+    Des points très intéressant dans la réponse
+
+    > We process data as long as you do not object to the processing or Post CH Ltd reports the address to us as undeliverable (checked monthly).
+
+    et
+
+    > The notification of relocation from MM/YYYY to the current address comes from POST CH AG.
+
+    C'est donc bien la Poste Suisse qui leur donne (sans doute vend ? ) mes données.
 
 ### Nielsen 
 
@@ -150,7 +159,10 @@ Et oui, il faut parfois transmettre des données personnelles en plus pour en fa
     * Réponse reçue : 18/03/2024 : "Unless you have had a previous relationship with Nielsen (for example as a member of one of our panels or as an employee or business partner), it is unlikely that we have collected directly identifying data about you".
     * Donc ils disent ne pas collecter de données indirectement
   
-### D'autres à venir !
+### SwissVet Group
+
+A collecté mes données d'un caibinet vétérinaire, racheté pour me spammer
+J'ai demandé l'effacement des données
 
 ## 4. One Trust
 
