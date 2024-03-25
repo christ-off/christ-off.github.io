@@ -56,9 +56,18 @@ Google est une [régie publicitaire](https://www.statista.com/statistics/1093781
 2. Installez le meilleur "bloqueur de nuisances" : [uBlock Origin](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/)
 3. On peut aller plus loin en changeant des paramètres, mais restons simple
 
-### La poste Suisse - Difficulté : Facile, Portée : Suisse
+### L'annuaire Suisse- Difficulté : Facile, Portée : Suisse
 
-Si vous avez un compte sur le site de la poste suisse, alors sans quelle vous le dise vous avez accepté l'usage de vos données
+**Indispensable** : Faites retirer vos numéros de téléphones des annuaires suisses.  
+L'[Annuaire public](https://www.oeffentliches-verzeichnis.ch/default.aspx?language=fr) anciennement "Directories.ch" couvre 17 opérateurs suisses.  
+Faites aussi une vérification sur [Local.ch](https://customercenter.local.ch/fr/update).  
+Ne vous ajoutez pas vérifiez juste que le message "Aucune inscription n'a été trouvée pour ..." s'affiche.  
+
+### La poste suisse - Difficulté : Facile, Portée : Suisse
+
+Il est très important d'empêcher la poste de transmettre vos données.  
+J'ai déjà trouvé un Data-Broker suisse ayant été informé par la Poste de mon déménagement.  
+Si vous avez un compte sur le site de la poste suisse, alors, et sans quelle vous le dise, vous avez accepté l'usage de vos données !  
 
 1. [Identifiez-vous sur le site de la poste](https://www.post.ch/fr)
 2. Rendez-vous sous votre profil > "<i class="fa-solid fa-gear"></i> Paramètres" > ["Connaître les services postaux"](https://service.post.ch/kvm/app/ui/settings/postalservices)  
@@ -102,20 +111,33 @@ Quelques exemples :
 
 ### Démarchage téléphonique - Difficulté : Facile, Portée : Suisse
 
-- Ne pas être dans l'annuaire !
-   Peux-être n'avez-vous pas besoin de ce téléphone fixe qui ne sert qu'à recevoir des appels non désirés ?
-- [Demandez votre suppression de "Local.ch"](https://privacyportal-eu-cdn.onetrust.com/dsarwebform/b9865779-0248-4bd3-86ae-adcc74e59b6c/03029c5e-bf5a-4477-b315-b9b11d80d9ee.html)
 - Sur le site de la Federation Romande des consommateurs, il y a une très utile page : [Appels publicitaires, comment s’en prémunir](https://www.frc.ch/comment-sen-premunir/)
-- Remarque : La liste d'opposition "Robinson" n'est pas respectée par les démarcheurs indélicats
-- [Inscription à sur la liste Robinson](https://sdv-konsumenteninfo.ch/robinsonliste-francais/)
-- Si vous êtes démarchés, prenez bien les coordonnées de l'appelant 
+- [Inscription à sur la liste Robinson](https://sdv-konsumenteninfo.ch/robinsonliste-francais/)  
+  Remarque : La liste d'opposition "Robinson" n'est pas respectée par les démarcheurs indélicats  
+- Si vous êtes démarchés, prenez bien les coordonnées de l'appelant  
   et vous pouvez déposer une réclamation via ce formulaire : [Réclamation contre des appels publicitaires indésirables](https://www.seco.admin.ch/seco/fr/home/Werbe_Geschaeftsmethoden/Unlauterer_Wettbewerb/Beschwerde_melden/beschwerde_werbeanruf.html).
-  Ils n'agiront pas s'il ne recoivent pas de multiples réclamations.
+  Ils n'agiront pas s'ils ne reçoivent pas de multiples réclamations.
+
+### Facebook -  Difficulté : Facile, Portée : Universelle
+
+- Clôturez vos comptes Facebook, Instagram, What's app, ...
+  Mais ce n'est pas suffisant : vos amis sur Facebook ont votre téléphone, votre email.  
+  Donc...
+- Bloquez l'utilisation de votre téléphone, de votre email par Meta/Facebook quand un proche synchronise son carnet d'adresse avec Meta.  
+  [Facebook Contact Removal]https://www.facebook.com/contacts/removal
 
 ### DNS - Difficulté : Avancée, Portée : Universelle
 
-À venir
+Les DNS sont les annuaires internets des sites web.  
+Avec un bon DNS, les adresses des traqueurs seront inconnus pour votre téléphone, votre télévision, ...
 
+* NextDNS (payant) propose un filtrage pour tout vos appareils [NextDNS](https://nextdns.io/).
+  Efficace : vos appareils ne se connecteront plus aux sites publicitaires.  
+  Pour donner un ordre de grandeur : sur tout le foyer environ 13% de mon traffic est bloqué
+* Mullvad l'excellent fournisseur de VPN propose plusieurs serveurs DNS.  
+  Choisissez le serveur en fonction de ce que vous voulez bloquer
+* Le Wiki de SebSauvage (liste des résolveurs alternatif DNS](https://sebsauvage.net/wiki/doku.php?id=dns-alternatifs&s[]=dns)
+* Sur Android [Personnal DNS Filter](https://sebsauvage.net/wiki/doku.php?id=dnsfilter)
 
 ---
 
@@ -132,16 +154,12 @@ Et oui, il faut parfois transmettre des données personnelles en plus pour en fa
 * Coordonnées : [AZ Direct locations](https://www.az-direct.com/site/en/company/locations) 
 * Démarches
   * Mail envoyé le 14/03/2024  
-  * Réponse reçue le 21/03/2024 avec mes données (ce que j'avait demandé)
-    Des points très intéressant dans la réponse
-
-    > We process data as long as you do not object to the processing or Post CH Ltd reports the address to us as undeliverable (checked monthly).
-
+  * Réponse reçue le 21/03/2024 avec mes données (ce que j'avait demandé)  
+    Des points très intéressant dans la réponse :  
+    *"We process data as long as you do not object to the processing or Post CH Ltd reports the address to us as undeliverable (checked monthly)."*
     et
-
-    > The notification of relocation from MM/YYYY to the current address comes from POST CH AG.
-
-    C'est donc bien la Poste Suisse qui leur donne (sans doute vend ? ) mes données.
+    *"The notification of relocation from MM/YYYY to the current address comes from POST CH AG."*
+    **C'est donc bien la Poste Suisse qui leur "donne" mes coordonnées.**
 
 ### Nielsen 
 
@@ -156,21 +174,15 @@ Et oui, il faut parfois transmettre des données personnelles en plus pour en fa
     * e-mail envoyé le 15/03/2024, L'email est inutile, Remplissez directement le formulaire ["One Trust](https://privacyportal-de.onetrust.com/webform/70b0083d-d519-4ad2-84ca-96b7c5f8e1a9/9810a8bc-e54d-4d70-bac0-5e4d781ef5b9)
     * Formulaire "One Trust" (quel nom qui inspire confiance n'est-ce pas ?) : 15/03/2024
     * En attente du traitement : j'ai immédiatement reçu numéro de ticket
-    * Réponse reçue : 18/03/2024 : "Unless you have had a previous relationship with Nielsen (for example as a member of one of our panels or as an employee or business partner), it is unlikely that we have collected directly identifying data about you".
-    * Donc ils disent ne pas collecter de données indirectement
+    * Réponse reçue : 18/03/2024 :  
+      *"Unless you have had a previous relationship with Nielsen (for example as a member of one of our panels or as an employee or business partner), it is unlikely that we have collected directly identifying data about you"*
+    * Donc, ils disent ne pas collecter de données indirectement
   
 ### SwissVet Group
 
-A collecté mes données d'un caibinet vétérinaire, racheté pour me spammer
-J'ai demandé l'effacement des données
+A collecté mes données d'un caibinet vétérinaire, racheté pour me spammer.  
+J'ai demandé l'effacement des données.
 
-## 4. One Trust
+## Liens utiles
 
-J'ai rencontré plusieurs fois "Portail One Trust".  
-Certaines entreprises semblent déléguer les demandes de suppression à une autre société.  
-C'est aberrant ! C'est deux fois aberrant !  
-
-1. Vous demandez que vos données soient effacées de la société "A"
-2. Vous devez donner des informations personnelles à une autre société "B".
-3. Pour que la Société "B" s'assure que vos données sont effacées partout dans les systèmes informatiques de la société "A" ?  
-   Je n'y crois pas. Et au niveau sécurité informatique, n'en parlons pas !
+- Il y a une [lettre type sur la page du Préposé Fédéral à la protection des données](https://www.edoeb.admin.ch/edoeb/fr/home/datenschutz/grundlagen/auskunftsrecht.html)
