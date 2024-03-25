@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'github-pages', "~> 231", group: :jekyll_plugins
-gem 'webrick'
-gem 'kramdown'
+gem "jekyll", "~> 4.2"
+
+group :jekyll_plugins do
+  gem 'webrick'
+  gem 'kramdown'
+end
