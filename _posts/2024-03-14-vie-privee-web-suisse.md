@@ -32,7 +32,6 @@ Voici plutôt quelques exemples concrets, réels pour constater ce qu’il arriv
 * Un automobiliste a vu subitement son assurance automobile faire un bon de 21%   
   L’article original (payant) : [Automakers Are Sharing Consumers’ Driving Behavior With Insurance Companies](https://www.nytimes.com/2024/03/11/technology/carmakers-driver-tracking-insurance.html)  
   L’article en accès libre : [Archive](https://web.archive.org/web/20240313200717/https://www.nytimes.com/2024/03/11/technology/carmakers-driver-tracking-insurance.html)
-* On peut savoir sans recours au « Dark web » [qui rend visite à Donald Trump à Mar-a-Lago](https://www.rollingstone.com/culture/culture-features/data-brokers-trump-tech-spying-privacy-threat-1234897098/) et donc n’importe quel lieu.
 * Les données de localisation utilisées pour cible ceux qui se rendent dans une clinique pour avorter  
   [Data Broker Is Selling Location Data of People Who Visit Abortion Clinics](https://web.archive.org/web/20240313050414/https://www.vice.com/en/article/m7vzjb/location-data-abortion-clinics-safegraph-planned-parenthoo)
 * Vous êtes gai, vous être prêtre, un groupe de catholiques extrémistes va vous traquer.  
@@ -43,7 +42,7 @@ Voici plutôt quelques exemples concrets, réels pour constater ce qu’il arriv
 
 ## 2. S'opposer à la collecte de données
 
-Il n'y a pas de moyen ultime. Mais des gestes souvent simples et efficaces. 
+Il n'y a pas de moyen imparable, mais des gestes souvent simples et efficaces. 
 
 ### Navigateur Web - Difficulté : Facile, Portée : Universelle
 
@@ -89,7 +88,7 @@ Je vous laisse lire la ["Déclaration de protection des données"](https://www.p
 Je trouve certains paragraphes d'un mépris pour mes données personnelles comme :  
 "Nous transmettons vos données personnelles à d'autres entreprises qui peuvent décider elles-mêmes comment elles les utilisent."
 
-### Supercard Coop - Difficulté : ????, Portée : Suisse
+### Supercard Coop - Difficulté : Facile, Portée : Suisse
 
 La page pour demander votre suppression est assez cachée.  
 La voici : [Nous répondons à vos questions](https://www.coop.ch/content/unternehmen/fr/entreprise/contact/interlocuteur.html).  
@@ -101,8 +100,7 @@ Choisissez "SuperCard" puis "Résiliation"
 Le site web pour mobile est suffisant !  
 Ignorez les messages "Pitié, installez notre super application qui aspire le plus de données possibles".  
 
-Si vous voulez vraiment l'application, faites un tour sur [Exodus Privacy](https://reports.exodus-privacy.eu.org/fr/) **avant** d'installer.
-
+Si vous voulez vraiment l'application, faites un tour sur [Exodus Privacy](https://reports.exodus-privacy.eu.org/fr/) **avant** d'installer pour vous rendre compte de l'étendue des permissions demandée ET des traqueurs embarqués.  
 Quelques exemples :
 
 - L'application de la ["Supercard Coop"](https://reports.exodus-privacy.eu.org/fr/reports/ch.coop.supercard/latest/)
@@ -124,19 +122,19 @@ Quelques exemples :
   Mais ce n'est pas suffisant : vos amis sur Facebook ont votre téléphone, votre email.  
   Donc...
 - Bloquez l'utilisation de votre téléphone, de votre email par Meta/Facebook quand un proche synchronise son carnet d'adresse avec Meta.  
-  [Facebook Contact Removal]https://www.facebook.com/contacts/removal
+  [Facebook Contact Removal](https://www.facebook.com/contacts/removal)
 
 ### DNS - Difficulté : Avancée, Portée : Universelle
 
 Les DNS sont les annuaires internets des sites web.  
 Avec un bon DNS, les adresses des traqueurs seront inconnus pour votre téléphone, votre télévision, ...
 
-* NextDNS (payant) propose un filtrage pour tout vos appareils [NextDNS](https://nextdns.io/).
+* NextDNS (payant) propose un filtrage pour tout vos appareils [NextDNS](https://nextdns.io/).  
   Efficace : vos appareils ne se connecteront plus aux sites publicitaires.  
-  Pour donner un ordre de grandeur : sur tout le foyer environ 13% de mon traffic est bloqué
+  Pour donner un ordre de grandeur : *sur tout le foyer environ 13% de mon traffic est bloqué*
 * Mullvad l'excellent fournisseur de VPN propose plusieurs serveurs DNS.  
-  Choisissez le serveur en fonction de ce que vous voulez bloquer
-* Le Wiki de SebSauvage (liste des résolveurs alternatif DNS](https://sebsauvage.net/wiki/doku.php?id=dns-alternatifs&s[]=dns)
+  [Choisissez le serveur en fonction de ce que vous voulez bloquer](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)
+* Le Wiki de SebSauvage [liste des résolveurs alternatif DNS](https://sebsauvage.net/wiki/doku.php?id=dns-alternatifs&s[]=dns)
 * Sur Android [Personnal DNS Filter](https://sebsauvage.net/wiki/doku.php?id=dnsfilter)
 
 ---
@@ -160,6 +158,11 @@ Et oui, il faut parfois transmettre des données personnelles en plus pour en fa
     et
     *"The notification of relocation from MM/YYYY to the current address comes from POST CH AG."*
     **C'est donc bien la Poste Suisse qui leur "donne" mes coordonnées.**
+  * Demande d'effacement des données : 21/03
+    Confirmation de leur part de l'affacement : 28/03
+* Conclusion :
+  AZ Direct avait bien mes coordonnées. Coordonnées à jour grâce à la Poste Suisse.  
+  Ils ont répondu correctement à mes demandes
 
 ### Nielsen 
 
@@ -180,7 +183,7 @@ Et oui, il faut parfois transmettre des données personnelles en plus pour en fa
   
 ### SwissVet Group
 
-A collecté mes données d'un caibinet vétérinaire, racheté pour me spammer.  
+A collecté mes données d'un cabinet vétérinaire, racheté pour me spammer.  
 J'ai demandé l'effacement des données.
 
 ## Liens utiles
