@@ -58,9 +58,8 @@ Google est une [régie publicitaire](https://www.statista.com/statistics/1093781
 ### L'annuaire Suisse- Difficulté : Facile, Portée : Suisse
 
 **Indispensable** : Faites retirer vos numéros de téléphones des annuaires suisses.  
-L'[Annuaire public](https://www.oeffentliches-verzeichnis.ch/default.aspx?language=fr) anciennement "Directories.ch" couvre 17 opérateurs suisses.  
-Faites aussi une vérification sur [Local.ch](https://customercenter.local.ch/fr/update).  
-Ne vous ajoutez pas vérifiez juste que le message "Aucune inscription n'a été trouvée pour ..." s'affiche.  
+L'[Annuaire public](https://www.oeffentliches-verzeichnis.ch/default.aspx?language=fr) anciennement "Directories.ch" couvre 17 opérateurs suisse.  
+Au moins un data-broker a eu mes coordonnées comme cela (j'étais dans l'annuaire il y a longtemps)
 
 ### La poste suisse - Difficulté : Facile, Portée : Suisse
 
@@ -72,14 +71,14 @@ Si vous avez un compte sur le site de la poste suisse, alors, et sans quelle vou
 2. Rendez-vous sous votre profil > "<i class="fa-solid fa-gear"></i> Paramètres" > ["Connaître les services postaux"](https://service.post.ch/kvm/app/ui/settings/postalservices)  
    "Mon consentement à de nombreuses informations et prestations passionnantes de la Poste"  
    Quel humour n'est-ce pas ? "Mon consentement" que je n'ai jamais donné !  
-   "Connaître les services postaux" : c'est plutôt, laissez les services postaux tout connaitre de vous !
+   "Connaître les services postaux" : c'est plutôt, laissez les services postaux tout connaitre de vous !  
 3. Vous verrez que tout est coché  
    ![Toutes les coches sont actives](/assets/posts/privacy/connaitre-service-postaux.png "Connaître les services postaux")
-4. Décochez "Connaître les services postaux" 
-   Tous les autres en dessous vont se décocher
-5. Rendez-vous sous votre profil > "<i class="fa-solid fa-gear"></i> Paramètres" > ["Prendre connaissance des offres de tiers"](https://service.post.ch/kvm/app/ui/settings/thirdpartyoffers)
+4. Décochez "Connaître les services postaux"  
+   Tous les autres en dessous vont se décocher  
+5. Rendez-vous sous votre profil > "<i class="fa-solid fa-gear"></i> Paramètres" > ["Prendre connaissance des offres de tiers"](https://service.post.ch/kvm/app/ui/settings/thirdpartyoffers)  
    Idem tout est coché et vous avez donné votre consentement à ce que des tiers connaissent votre centre d'intérêts
-6. Encore une fois tout est coché
+6. Encore une fois tout est coché  
    ![Toutes les coches sont actives](/assets/posts/privacy/poste_offre_tiers.png "Prendre connaissance des offres de tiers")
 7. Décochez "Prendre connaissance des offres de tiers"
 8. Tout va se décocher et la liste et longue
