@@ -87,6 +87,18 @@ Je vous laisse lire la ["Déclaration de protection des données"](https://www.p
 Je trouve certains paragraphes d'un mépris pour mes données personnelles comme :  
 "Nous transmettons vos données personnelles à d'autres entreprises qui peuvent décider elles-mêmes comment elles les utilisent."
 
+### Déménagement et poste suisse - Difficulté : Facile, Portée : Suisse
+
+Le poste propose d'*"Informer simplement et rapidement vos assurances, banques, caisse-maladie, etc. de votre nouvelle adresse. Les entreprises sélectionnées seront informées gratuitement par la Poste pour vous."*  
+Le mot clef c'est "etc".  
+Vous allez de doute façon prévenir la banque, les assurances vous même.  
+Eux par contre il vont permettre à des Data-Brokers de maintenir bien à jour leur fichiers.  
+Data-Brokers qui en font d'ailleurs un argument : "Vous pouvez donc être sûr que vous achetez des données qui sont toujours à jour".  
+Ne les laissez pas vendre votre vie privée !
+
+[Annonce de déménagement sur le site de la Poste Suisse](https://www.post.ch/fr/reception/demenagement/annonce-de-demenagement).  
+En plus une formule est payante ! Ils sont payés, vous les payez en plus.  
+
 ### Supercard Coop - Difficulté : Facile, Portée : Suisse
 
 La page pour demander votre suppression est assez cachée.  
