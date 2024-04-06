@@ -35,7 +35,7 @@ It works out of the box on a system where:
 
 So... That's pretty cool!
 
-## Fedora 39
+## Fedora 39 - kernel 6.7
 
 * Tested on a [Dell XPS 13 9350](https://dl.dell.com/manuals/all-products/esuprt_laptop/esuprt_xps_laptop/xps-13-9350-laptop_Reference%20Guide_en-us.pdf)
 * This model if from 2015
@@ -118,4 +118,4 @@ It should work StarTech provides an Ubuntu Driver
 
 ##  Macbook PRO M3 running macOS 14.3.1 Sonoma
 
-Coming soon
+Works like a charm using the provided drivers [109B-USBC-HDMI](https://www.startech.com/en-us/display-video-adapters/109b-usbc-hdmi)
