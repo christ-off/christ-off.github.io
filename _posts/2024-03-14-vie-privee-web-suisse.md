@@ -197,6 +197,18 @@ Et oui, il faut parfois transmettre des données personnelles en plus pour en fa
 A collecté mes données d'un cabinet vétérinaire, racheté pour me spammer.  
 J'ai demandé l'effacement des données.
 
+### Pipl.com
+
+Ce site aggrège tout ce qu'il peut trouver !  
+J'ai demandé mes données en écrivant un mail à privacy@pipl.com.  
+J'ai fournit un document d'identité pour prouver qui je suis (sans oublier d'utiliser [Filigrane Facile](https://filigrane.beta.gouv.fr/)).  
+J'ai obtenu un jour plus tard ce qu'ils avaient sur moi -> c'est édifiant !  
+J'ai demandé la suppression de mes données.  
+
+## Poste Suisse
+
+Après 15 jours aucune réponse. Je passe au courier recommandé.  
+
 ## Liens utiles
 
 - Il y a une [lettre type sur la page du Préposé Fédéral à la protection des données](https://www.edoeb.admin.ch/edoeb/fr/home/datenschutz/grundlagen/auskunftsrecht.html)
