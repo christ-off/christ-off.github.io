@@ -74,9 +74,9 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  jekyll (~> 4.3)
+  jekyll
   kramdown
-  webrick (>= 1.8.2)
+  webrick
 
 BUNDLED WITH
    2.4.10
