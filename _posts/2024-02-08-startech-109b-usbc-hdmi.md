@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2x HDMI StarTech 109B-USBC Adapter
+title: 2x HDMI StarTech 109B-USBC Adapter with Fedora
 excerpt: "Adapter that let's you do multi-monitor : 2x HDMI - 4K 60Hz - 100W Power Delivery Pass-Through"
 category: components
 tags: ['Windows', 'Linux', 'Fedora', 'MacOS']
@@ -35,13 +35,23 @@ It works out of the box on a system where:
 
 So... That's pretty cool!
 
-## Fedora 39 - kernel 6.7
+## Fedora 39 - kernel 6.7 up to Fedora 41
 
 * Tested on a [Dell XPS 13 9350](https://dl.dell.com/manuals/all-products/esuprt_laptop/esuprt_xps_laptop/xps-13-9350-laptop_Reference%20Guide_en-us.pdf)
 * This model if from 2015
 * It has a "Thunderbolt 3 (USB Type‑C) port" which "supports USB 3.1 Gen 2, DisplayPort 1.2 , Thunderbolt 3"
 * I am running Fedora 39  
   At this time of writing the kernel is : 6.7.3-200.fc39.x86_64
+
+## Fedora 42
+
+You can skip the "Sign the module" steps
+
+## Fedora 43+
+
+I could not find a way to make it work. Time to go back to Ubuntu !
+
+## Procedure
 
 Some actions a required
 
