@@ -8,25 +8,28 @@ image: /assets/posts/android/android-nettoyage.jpg
 ---
 
 Cette page me sert de bloc-note pour rendre mon téléphone plus rapide et plus respectueux de la vie privée.  
-Il va y avoir des réglages, des désinstallations, des désactivations et quelques installations de logiciels ( des alternatives )
-Il y a 2 rubriques principales : Vie Privée et Performance. Mais sous vie privée toute désactivation / désinstallation vous fera peut-être perdre gagner en autonomie aussi.
+Il va y avoir des réglages, des désinstallations, des désactivations et quelques installations de logiciels ( des alternatives ).  
+Il y a 2 rubriques principales : Vie Privée et Performance. Mais sous vie privée toute désactivation / désinstallation vous fera peut-être perdre gagner en autonomie aussi.  
 Cette page est en construction.  
 
 ## Note
 
 - Sauf mention contraire tous les liens sont à ouvrir sur votre téléphone.
 - Si votre téléphone vous demande d'ouvrir un lien avec "Google Play" cliquez sur "Continuer". 
-  C'est justement le but
+  C'est justement le but  
 - Sauf mention contraire toutes les manipulations sont faciles et sans risque.  
-- Vous aurez besoin dans tous presque tous les cas de savoir accéder aux paramètres de votre téléphone
-- Et y trouvez une rubrique comme "Applications". Il y a toujours un moyen de rechercher par nom
+- Vous aurez besoin dans tous presque tous les cas de  
+  - savoir accéder aux paramètres de votre téléphone.
+  - Et d'y trouvez une rubrique comme "Applications".  
+  Il y a toujours un moyen de rechercher par nom
 
 ## Vie privée
 
 ### Android System Safety Core - Facilité 5/5 - Risque 0/5
 
 Derrière ce nom ( volontairement obscur mais rassurant ) se cache une application pour rechercher si vous avez des images "offensantes".  
-Avez le lien suivant 
+Avez le lien suivant :
+
 - Si vous voyez un bouton "Installer" ne faites rien.
 - Si vous voyez un bouton "Désinstaller" cliquez dessus.  
 
