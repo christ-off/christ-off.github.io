@@ -4,7 +4,7 @@ title: Android nettoyage de printemps
 excerpt: "Comment rendre un téléphone Android plus rapide, plus respectueux de la vie privée"
 category: privacy
 tags: ['Android']
-image: /assets/posts/android-nettoyage.jpg
+image: /assets/posts/android/android-nettoyage.jpg
 ---
 
 Cette page me sert de bloc-note pour rendre mon téléphone plus rapide et plus respectueux de la vie privée.  
