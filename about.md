@@ -8,15 +8,6 @@ excerpt: Who am ?
 
 ## Sources
 
-Jekyll theming done thanks to :
-
-- Creating a Jekyll Blog with Bootstrap 4 and Sass
-  - [Part 1](https://experimentingwithcode.com/creating-a-jekyll-blog-with-bootstrap-4-and-sass-part-1/)
-  - [Part 2](https://experimentingwithcode.com/creating-a-jekyll-blog-with-bootstrap-4-and-sass-part-2/)
-  - [Part 3](https://experimentingwithcode.com/creating-a-jekyll-blog-with-bootstrap-4-and-sass-part-3/)
-  - [Part 4](https://experimentingwithcode.com/creating-a-jekyll-blog-with-bootstrap-4-and-sass-part-4/)
-- Bootstrap 4 Blog - A free template by Bootstrap Temple
-  - [Jekyll Bootstrap](https://github.com/the-prism/Jekyll-Bootstrap)
 - Tag page done without plugins thanks to :
   - [Tags and Catagories](http://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/)
   
