@@ -1,4 +1,30 @@
-#content img {
-  @extend .img-fluid;
-  @extend .rounded;
+#content img, .post-hero {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--pico-border-radius);
 }
+
+.post-hero { display: block; margin: 0 auto 1.5rem; }
+
+.grid-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  gap: 1rem;
+
+  article { margin: 0; }
+  img { width: 100%; height: auto; border-radius: var(--pico-border-radius); }
+}
+
+.post-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(16rem, 1fr);
+  gap: 2rem;
+  @media (max-width: 991px) { grid-template-columns: 1fr; }
+}
+
+.info-card ul { list-style: none; padding: 0; margin: 0; }
+.info-card li { padding: .25rem 0; }
+
+.top-link { position: fixed; bottom: 5px; left: 5px; }
+.site-footer { text-align: center; }
+.nav-brand img { vertical-align: middle; margin-right: .5rem; }

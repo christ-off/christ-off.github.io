@@ -1,14 +1,13 @@
-<div class="container-fluid"><div class="row"><div class="col">
-  <nav class="navbar navbar-expand-lg bg-body-tertiary nav-underline">
-    <a id="pagetop" class="navbar-brand" href="/"><img src="{{ '/img/favicon-32x32.png' | prepend: site.baseurl }}" alt="Logo CC" class="d-inline-block align-top">{{ site.title }}</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-    <div class="collapse navbar-collapse" id="navbarDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="{{ '/categories/' | prepend: site.baseurl }}"><i class="fas fa-box-open"></i>&nbsp;Categories</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ '/tags/' | prepend: site.baseurl }}"><i class="fas fa-tags"></i>&nbsp;Tags</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ '/about/' | prepend: site.baseurl }}"><i class="fas fa-info-circle"></i>&nbsp;About</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ '/feed.xml' | prepend: site.baseurl }}"><i class="fas fa-rss"></i>&nbsp;Feed</a></li>
-      </ul>
-    </div>
+<div class="container">
+  <nav>
+    <ul>
+      <li><a id="pagetop" class="nav-brand contrast" href="/"><img src="{{ '/img/favicon-32x32.png' | prepend: site.baseurl }}" alt="Logo CC"><strong>{{ site.title }}</strong></a></li>
+    </ul>
+    <ul>
+      <li><a href="{{ '/categories/' | prepend: site.baseurl }}"><i class="fas fa-box-open"></i>&nbsp;Categories</a></li>
+      <li><a href="{{ '/tags/' | prepend: site.baseurl }}"><i class="fas fa-tags"></i>&nbsp;Tags</a></li>
+      <li><a href="{{ '/about/' | prepend: site.baseurl }}"><i class="fas fa-info-circle"></i>&nbsp;About</a></li>
+      <li><a href="{{ '/feed.xml' | prepend: site.baseurl }}"><i class="fas fa-rss"></i>&nbsp;Feed</a></li>
+    </ul>
   </nav>
-</div></div></div>
+</div>

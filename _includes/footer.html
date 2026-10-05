@@ -1,13 +1,12 @@
-<footer class="py-5">
+<footer class="site-footer container">
     <hr>
-    <div class="container text-center">
-        <div class="row"><div class="col"><div class="social-links">
+    <div>
+        <div class="social-links">
             <a target="_blank" href="https://github.com/{{ site.github_username }}"><i class="fab fa-github fa-2x"></i></a>
             &nbsp;
             <a rel="me" href="{{ site.mastodon_profile }}"><i class="fa-brands fa-mastodon fa-2x"></i></a>
-        </div></div></div>
-        <div class="row">
-            <div class="col">
+        </div>
+        <div>
                 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" class="fa-2x">
                     <i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i><i
                         class="fab fa-creative-commons-nc"></i><i class="fab fa-creative-commons-sa"></i>
@@ -17,14 +16,11 @@
                 Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>
                 {{ site.time | date: '%Y' }}.
             </div>
-        </div>
     </div>
 </footer>
 
 <!-- Mandatory scripts -->
-<script src="{{ '/javascript/bootstrap.bundle.min.js' | prepend: site.baseurl }}"></script>
-
 <script src="{{ '/javascript/clipboard.min.js' | prepend: site.baseurl }}" async></script>
 <script src="{{ '/javascript/codeselect.js' | prepend: site.baseurl }}" async></script>
 
-<a style="position: fixed; bottom:5px;left:5px;" href="#" class="btn btn-outline-secondary"><i class="fas fa-chevron-circle-up"></i></a>
+<a href="#" role="button" class="top-link outline secondary"><i class="fas fa-chevron-circle-up"></i></a>

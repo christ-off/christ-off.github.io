@@ -3,6 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{% if page.category %}{{ page.category }} - {% endif %}{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/css/pico.min.css' | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}">
     <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}{{ '/favicon.ico' | prepend: site.baseurl }}">
     <link rel="icon" href="{{ site.url }}{{ '/favicon.ico' | prepend: site.baseurl }}" type="image/x-icon">

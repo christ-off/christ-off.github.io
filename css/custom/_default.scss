@@ -12,8 +12,9 @@
   display: inline-block;
   padding: 0 0.5rem;
   background-color: lightgray;
+  color: #333;
   white-space: nowrap;
-  @extend .rounded-pill;
+  border-radius: 50rem;
 }
 
 .category:before {
@@ -30,6 +31,7 @@
   display: inline-block;
   padding: 0 0.5rem;
   background-color: lightblue;
+  color: #123;
   white-space: nowrap;
-  @extend .rounded;
+  border-radius: var(--pico-border-radius);
 }
