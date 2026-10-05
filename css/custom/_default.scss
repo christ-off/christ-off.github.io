@@ -1,8 +1,8 @@
 .tag {
   display: inline-block;
   padding: 0 0.5rem;
-  background-color: lightgray;
-  color: #333;
+  background-color: var(--pico-muted-border-color);
+  color: var(--pico-color);
   white-space: nowrap;
   border-radius: 50rem;
 }
@@ -10,8 +10,8 @@
 .category {
   display: inline-block;
   padding: 0 0.5rem;
-  background-color: lightblue;
-  color: #123;
+  background-color: color-mix(in srgb, var(--pico-primary) 20%, transparent);
+  color: var(--pico-color);
   white-space: nowrap;
   border-radius: var(--pico-border-radius);
 }

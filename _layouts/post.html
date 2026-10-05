@@ -4,31 +4,36 @@
 <body>
 {% include navbar.html %}
 <main class="container">
-  <img src="{{ page.image | prepend: site.baseurl }}" class="post-hero" alt="{{ page.title }}"/>
-  <div class="post-layout">
-    <div>
-      {% if page.title %}<div id="pagetitle"><h1>{{ page.title }}</h1></div>{% endif %}
-      <div id="content">{{ content | replace: '<img ', '<img loading="lazy" ' }}</div>
-    </div>
-    <aside>
-      <article class="info-card">
-        <header>Informations</header>
-        <ul>
-          <li>Date : {{ page.date | date: "%-d/%m/%Y" }}</li>
-          <li>Category :
-            {% if page.category %}
-            <a href="{{ site.baseurl }}/categories/#{{ page.category | slugify }}" class="category">{{ page.category }}</a>
-            {% endif %}
-          </li>
-          <li>Tags :
-            {% for tag in page.tags %}
-            <a href="{{ site.baseurl}}/tags/#{{ tag | slugify }}" class="tag">{{ tag }}</a>
-            {% endfor %}
-          </li>
-        </ul>
-      </article>
-    </aside>
-  </div>
+  <article>
+    <header>
+      {% if page.title %}<h1 id="pagetitle">{{ page.title }}</h1>{% endif %}
+      {% assign words = content | strip_html | number_of_words %}
+      <p class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d/%m/%Y" }}</time>
+        · {{ words | divided_by: 200 | plus: 1 }} min
+        {% if page.category %}· <a href="{{ site.baseurl }}/categories/#{{ page.category | slugify }}" class="category">{{ page.category }}</a>{% endif %}
+        {% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag | slugify }}" class="tag">{{ tag }}</a> {% endfor %}
+      </p>
+    </header>
+    <img src="{{ page.image | prepend: site.baseurl }}" class="post-hero" alt="{{ page.title }}"/>
+    {% assign parts = content | split: '<h2 id="' %}
+    {% if parts.size > 4 %}
+    <details class="toc">
+      <summary>Table of contents</summary>
+      <ul>{% for p in parts offset: 1 %}{% assign id = p | split: '"' | first %}{% assign title = p | split: '</h2>' | first | split: '>' | last %}
+        <li><a href="#{{ id }}">{{ title }}</a></li>{% endfor %}
+      </ul>
+    </details>
+    {% endif %}
+    <div id="content">{{ content | replace: '<img ', '<img loading="lazy" ' }}</div>
+    <footer>
+      <nav class="post-nav" aria-label="Posts">
+        <span>{% if page.previous %}<a href="{{ page.previous.url | prepend: site.baseurl }}">&larr; {{ page.previous.title }}</a>{% endif %}</span>
+        <span>{% if page.next %}<a href="{{ page.next.url | prepend: site.baseurl }}">{{ page.next.title }} &rarr;</a>{% endif %}</span>
+      </nav>
+    </footer>
+  </article>
+  {% if words > 1000 %}<a href="#pagetitle" role="button" class="top-link outline secondary" aria-label="Back to top"><svg class="icon" aria-hidden="true"><use href="#i-chevron-up"/></svg></a>{% endif %}
 </main>
 {% include footer.html %}
 </body>

@@ -5,6 +5,7 @@
 }
 
 .post-hero { display: block; margin: 0 auto 1.5rem; }
+.post-hero { width: 100%; }
 
 .grid-cards {
   display: grid;
@@ -15,15 +16,6 @@
   img { width: 100%; height: auto; border-radius: var(--pico-border-radius); }
 }
 
-.post-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 2fr) minmax(16rem, 1fr);
-  gap: 2rem;
-  @media (max-width: 991px) { grid-template-columns: 1fr; }
-}
-
-.info-card ul { list-style: none; padding: 0; margin: 0; }
-.info-card li { padding: .25rem 0; }
 
 .top-link { position: fixed; bottom: 5px; left: 5px; }
 .site-footer { text-align: center; }
@@ -31,3 +23,8 @@
 
 .icon { width: 1em; height: 1em; fill: currentColor; vertical-align: -.125em; }
 .icon-2x { width: 2em; height: 2em; }
+
+.post-meta { color: var(--pico-muted-color); }
+.post-nav { display: flex; justify-content: space-between; gap: 1rem; }
+.toc ul { columns: 1; }
+.grid-cards h3 { font-size: 1.1rem; margin-bottom: .5rem; }

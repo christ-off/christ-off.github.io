@@ -1,0 +1,16 @@
+---
+layout: page
+title: Archive
+lang: en
+---
+
+<h1>Archive</h1>
+{% assign by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+{% for year in by_year %}
+<h2>{{ year.name }}</h2>
+<ul>
+  {% for post in year.items %}
+  <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <small>{{ post.date | date: "%-d/%m" }}</small></li>
+  {% endfor %}
+</ul>
+{% endfor %}

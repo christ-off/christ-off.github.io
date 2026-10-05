@@ -4,11 +4,11 @@
             <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" {% if include.loading == "lazy" %} loading="lazy" {% endif %} />
         </a>
     </header>
-    <h5><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h5>
+    <h3><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h3>
     {% if post.category %}Category : <a href="{{ site.baseurl }}/categories/#{{ post.category | slugify }}" class="category">{{ post.category }}</a>{% endif %}
     <br/><small>Tags : {% for tag in post.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag | slugify }}" class="tag">{{ tag }}</a>{% endfor %}</small>
     <p>
-        {{ post.content | strip_html | newlines_to_br | truncatewords: 50 | normalize_whitespace | xml_escape }}
+        {{ post.excerpt | strip_html | normalize_whitespace | truncatewords: 40 }}
         <br/><a href="{{ post.url | prepend: site.baseurl }}">&rarr;&nbsp;Read</a>
     </p>
     <footer><small>{{ post.date | date: "%-d/%m/%Y" }}</small></footer>
