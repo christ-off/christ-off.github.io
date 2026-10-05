@@ -68,7 +68,7 @@ J'ai déjà trouvé un Data-Broker suisse ayant été informé par la Poste de m
 Si vous avez un compte sur le site de la poste suisse, alors, et sans quelle vous le dise, vous avez accepté l'usage de vos données !  
 
 1. [Identifiez-vous sur le site de la poste](https://www.post.ch/fr)
-2. Rendez-vous sous votre profil > "<i class="fa-solid fa-gear"></i> Paramètres" > ["Connaître les services postaux"](https://service.post.ch/kvm/app/ui/settings/postalservices)  
+2. Rendez-vous sous votre profil > "<svg class="icon" aria-hidden="true"><use href="#i-gear"/></svg> Paramètres" > ["Connaître les services postaux"](https://service.post.ch/kvm/app/ui/settings/postalservices)  
    "Mon consentement à de nombreuses informations et prestations passionnantes de la Poste"  
    Quel humour n'est-ce pas ? "Mon consentement" que je n'ai jamais donné !  
    "Connaître les services postaux" : c'est plutôt, laissez les services postaux tout connaitre de vous !  
@@ -76,7 +76,7 @@ Si vous avez un compte sur le site de la poste suisse, alors, et sans quelle vou
    ![Toutes les coches sont actives](/assets/posts/privacy/connaitre-service-postaux.png "Connaître les services postaux")
 4. Décochez "Connaître les services postaux"  
    Tous les autres en dessous vont se décocher  
-5. Rendez-vous sous votre profil > "<i class="fa-solid fa-gear"></i> Paramètres" > ["Prendre connaissance des offres de tiers"](https://service.post.ch/kvm/app/ui/settings/thirdpartyoffers)  
+5. Rendez-vous sous votre profil > "<svg class="icon" aria-hidden="true"><use href="#i-gear"/></svg> Paramètres" > ["Prendre connaissance des offres de tiers"](https://service.post.ch/kvm/app/ui/settings/thirdpartyoffers)  
    Idem tout est coché et vous avez donné votre consentement à ce que des tiers connaissent votre centre d'intérêts
 6. Encore une fois tout est coché  
    ![Toutes les coches sont actives](/assets/posts/privacy/poste_offre_tiers.png "Prendre connaissance des offres de tiers")

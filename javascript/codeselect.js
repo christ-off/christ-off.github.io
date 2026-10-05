@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
         btn.setAttribute('type', 'btn');
         btn.className = 'btn-copy-code';
         btn.setAttribute('data-clipboard-target', '#' + id);
-        btn.innerHTML = '<i class="far fa-file-code fa-2x"></i>&nbsp;&nbsp;Copy to clipboard';
+        btn.innerHTML = '<svg class="icon icon-2x" aria-hidden="true"><use href="#i-file-code"/></svg>&nbsp;&nbsp;Copy to clipboard';
         block.insertBefore(btn, block.firstChild);
     });
     new ClipboardJS('.btn-copy-code');

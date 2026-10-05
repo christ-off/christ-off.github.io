@@ -1,10 +1,12 @@
 ---
 layout: post
+lang: en
 title: 2x HDMI StarTech 109B-USBC Adapter with Fedora
 excerpt: "Adapter that let's you do multi-monitor : 2x HDMI - 4K 60Hz - 100W Power Delivery Pass-Through"
 category: components
 tags: ['Windows', 'Linux', 'Fedora', 'MacOS']
 image: /assets/posts/startech_109b_usbc_hdmi/2019-08-06-tests-links.jpg
+published: false
 ---
 
 ## Purpose of This Page

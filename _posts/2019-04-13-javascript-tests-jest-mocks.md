@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: "Javascript unit tests : 'Injecting mocks' with Jest"
 excerpt: How to replace a module, a function by a mock when testing
 category: dev

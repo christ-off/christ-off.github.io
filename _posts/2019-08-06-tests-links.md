@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: Tests links
 excerpt: Useful links about tests
 category: links

@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: Scrum Agile Bests Posts
 excerpt: Bests posts about Scrum, Agile, Meetings, ...
 category: links

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang | default: site.lang }}">
 {% include head.html %}
 <body>
 {% include navbar.html %}
@@ -8,7 +8,7 @@
   <div class="post-layout">
     <div>
       {% if page.title %}<div id="pagetitle"><h1>{{ page.title }}</h1></div>{% endif %}
-      <div id="content">{{ content }}</div>
+      <div id="content">{{ content | replace: '<img ', '<img loading="lazy" ' }}</div>
     </div>
     <aside>
       <article class="info-card">

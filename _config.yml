@@ -4,15 +4,22 @@ email: 4630125+christ-off@users.noreply.github.com
 description: My blog about dev mainly Java and Spring
 url: https://christ-off.github.io
 author: christ-off
+lang: fr
+image: /img/favicon-32x32.png
 
 # Social icons
 github_username: Christ-OFF
 mastodon_profile: https://tooting.ch/@ptl
 
-exclude: [ "etc", "README.md" , "vendor"]
+exclude: [ "etc", "README.md", "vendor", "CLAUDE.md", "AGENTS.md" ]
 # include:
 
 # Build settings
 permalink: :title/
 sass:
   sass_dir: css
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap

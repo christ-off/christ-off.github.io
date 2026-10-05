@@ -1,13 +1,14 @@
+{% include icons.html %}
 <div class="container">
   <nav>
     <ul>
       <li><a id="pagetop" class="nav-brand contrast" href="/"><img src="{{ '/img/favicon-32x32.png' | prepend: site.baseurl }}" alt="Logo CC"><strong>{{ site.title }}</strong></a></li>
     </ul>
     <ul>
-      <li><a href="{{ '/categories/' | prepend: site.baseurl }}"><i class="fas fa-box-open"></i>&nbsp;Categories</a></li>
-      <li><a href="{{ '/tags/' | prepend: site.baseurl }}"><i class="fas fa-tags"></i>&nbsp;Tags</a></li>
-      <li><a href="{{ '/about/' | prepend: site.baseurl }}"><i class="fas fa-info-circle"></i>&nbsp;About</a></li>
-      <li><a href="{{ '/feed.xml' | prepend: site.baseurl }}"><i class="fas fa-rss"></i>&nbsp;Feed</a></li>
+      <li><a href="{{ '/categories/' | prepend: site.baseurl }}"><svg class="icon" aria-hidden="true"><use href="#i-box-open"/></svg>&nbsp;Categories</a></li>
+      <li><a href="{{ '/tags/' | prepend: site.baseurl }}"><svg class="icon" aria-hidden="true"><use href="#i-tags"/></svg>&nbsp;Tags</a></li>
+      <li><a href="{{ '/about/' | prepend: site.baseurl }}"><svg class="icon" aria-hidden="true"><use href="#i-info"/></svg>&nbsp;About</a></li>
+      <li><a href="{{ '/feed.xml' | prepend: site.baseurl }}"><svg class="icon" aria-hidden="true"><use href="#i-rss"/></svg>&nbsp;Feed</a></li>
     </ul>
   </nav>
 </div>

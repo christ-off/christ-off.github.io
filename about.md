@@ -1,4 +1,5 @@
 ---
+lang: en
 layout: page
 title: About this website
 excerpt: Who am ?

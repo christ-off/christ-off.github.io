@@ -1,5 +1,5 @@
 <article>
-  <header><i class="fa-solid fa-newspaper"></i> My 6 last posts</header>
+  <header><svg class="icon" aria-hidden="true"><use href="#i-newspaper"/></svg> My 6 last posts</header>
   <div class="grid-cards">
     {% for post in site.posts limit: 6 %}{% if forloop.index > 3 %}{% include post_card.html loading="lazy" %}{% else %}{% include post_card.html %}{% endif %}{% endfor %}
   </div>
