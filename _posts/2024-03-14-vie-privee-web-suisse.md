@@ -4,7 +4,6 @@ title: Collecte des Données, Vie Privée, Web et Suisse
 excerpt: "Comment lutter contre la collecte des données privées en Suisse"
 category: privacy
 tags: ['Suisse']
-image: /assets/posts/privacy/poste-publicite.jpeg
 ---
 
 Cette page vise à vous aider à maintenir le contrôle sur vos données, en utilisant des méthodes simples ou avancées.  

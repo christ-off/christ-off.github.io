@@ -6,7 +6,6 @@ excerpt: How to replace a module, a function by a mock when testing
 category: dev
 published: true
 tags: ["Javascript", "Tests"]
-image: /assets/posts/2019-04-13-javascript-tests-jest-mocks.png
 ---
 
 ## Purpose of this post

@@ -15,7 +15,6 @@
         {% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag | slugify }}" class="tag">{{ tag }}</a> {% endfor %}
       </p>
     </header>
-    <img src="{{ page.image | prepend: site.baseurl }}" class="post-hero" alt="{{ page.title }}"/>
     {% assign parts = content | split: '<h2 id="' %}
     {% if parts.size > 4 %}
     <details class="toc">

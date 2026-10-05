@@ -6,7 +6,6 @@ permalink: '/docker_tests_integration'
 category: dev
 published: true
 tags: ['Devoxx', 'Docker', 'Java', 'Tests']
-image: /assets/posts/junit5_docker.png
 ---
 
 # Lancer Docker pour faire des tests d'intégration (Java) ?

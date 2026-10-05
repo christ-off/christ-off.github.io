@@ -1,11 +1,9 @@
-#content img, .post-hero {
+#content img {
   max-width: 100%;
   height: auto;
   border-radius: var(--pico-border-radius);
 }
 
-.post-hero { display: block; margin: 0 auto 1.5rem; }
-.post-hero { width: 100%; }
 
 .grid-cards {
   display: grid;
@@ -13,7 +11,6 @@
   gap: 1rem;
 
   article { margin: 0; }
-  img { width: 100%; height: auto; border-radius: var(--pico-border-radius); }
 }
 
 
@@ -28,3 +25,6 @@
 .post-nav { display: flex; justify-content: space-between; gap: 1rem; }
 .toc ul { columns: 1; }
 .grid-cards h3 { font-size: 1.1rem; margin-bottom: .5rem; }
+
+nav { flex-wrap: wrap; }
+nav ul { flex-wrap: wrap; }

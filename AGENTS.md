@@ -12,7 +12,7 @@ Jekyll blog (GitHub Pages, https://christ-off.github.io), posts mostly in French
 
 ## Structure
 
-- `_posts/` — `YYYY-MM-DD-slug.md` (one is `.html`). Front matter: `layout: post`, `title`, `excerpt` (used as meta description), `category` (single), `tags` (list), `image` (hero, required by `_layouts/post.html`, stored under `assets/posts/<topic>/`).
+- `_posts/` — `YYYY-MM-DD-slug.md` (one is `.html`). Front matter: `layout: post`, `title`, `excerpt` (used as meta description), `category` (single), `tags` (list). Images used in post bodies live under `assets/posts/<topic>/`.
 - `_layouts/` (`home`, `page`, `post`) and `_includes/` — Pico CSS markup; `post.html` renders category/tag links to `categories.html` / `tags.html`, which group posts client-side by anchor (`#slug`).
 - `css/main.scss` is the Sass entry point (`sass_dir: css`); it pulls in `_solarized-dark.scss` and `css/custom/*`. Edit `css/custom/` for site styling. Icons are inline SVG symbols in `_includes/icons.html` (`<svg class="icon"><use href="#i-name"/></svg>`); no icon font.
 - `css/pico.min.css` is vendored Pico CSS 2.1.1 (linked separately in `head.html`; no CDN anywhere).

@@ -4,7 +4,6 @@ title: Devoxx 2019 - Kafka
 excerpt: Les universités, conférences et labs Kafka au Devoxx France 2019 par Florent Ramière, Jean-Louis Boudart et Nicolas Romanetti
 category: conference
 tags: ['Devoxx', 'Kafka']
-image: /assets/posts/kafka.png
 ---
 
 ## Introduction

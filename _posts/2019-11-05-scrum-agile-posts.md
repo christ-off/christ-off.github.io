@@ -5,7 +5,6 @@ title: Scrum Agile Bests Posts
 excerpt: Bests posts about Scrum, Agile, Meetings, ...
 category: links
 tags: ['Agile', 'Scrum' ]
-image: /assets/posts/2019-11-05-scrum-agile-posts.png
 ---
 
 ## Meetings
