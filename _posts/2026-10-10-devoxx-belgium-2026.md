@@ -10,6 +10,10 @@ published: true
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gc5fF6pGhDA?si=AbVxASaDAkIxHeaF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Companion
+
+If you want to find a talk that is not listed here use the [Companion](https://m.devoxx.com/events/dvbe26)
+
 ## Legend
 
 - ❤️Talks I highly recommend (check the topic though)
@@ -116,6 +120,8 @@ Watch either the 2h49 talk by Brian Vermeer:
 Or this one (49 min), also by Brian Vermeer.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/c4F7Iy3XqaY?si=XWoQMW5G8DnXIMZ_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+I found a little game to teach you the danger of agents [LLM Game](https://llmgame.scalex.dev/)
 
 After this talk you will feel the urgent need to at least sandbox your coding agent!  
 Some irresponsible IT companies, like Microsoft, are working to make matters worse: ["Microsoft is about to let Copilot loose on your file system"](https://www.theregister.com/personal-tech/2026/10/07/microsoft-is-about-to-let-copilot-loose-on-your-file-system/5301763).  
