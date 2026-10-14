@@ -10,7 +10,7 @@ published: false
 
 ## Purpose of this page 
 
-I want to customize the docker Sandbox for Agent I will use to code
+Let's create template with the tools I need and then use it with a local LLM
 
 ## Create a template from a running sandbox
 
@@ -30,11 +30,12 @@ Don't do that or at least don't distribute.
   * Playwright :
     ```
        npm install -g playwright
+       npm install -g @playwright/cli@latest
        playwright-cli install --skills -g
     ```
 * Exit the bash
 * Exit the sandbox
-* Stop the sandbox ( onway is to start ```sbx``` and stop the sandbox from the TUI )
+* If it is still running (it should stop ), stop the sandbox ( one way is to start ```sbx``` and stop the sandbox from the TUI )
 * Save the sandbox ```sbx template save my-sandbox my-template:v1```
 * It creates a snapshot of your sandbox
 * useful commands :
@@ -42,7 +43,7 @@ Don't do that or at least don't distribute.
      sbx template ls
      sbx template rm my-template:v1
   ```
-* Start a new sandbox based on the template : ```sbx run -t my-template:v1 claude```
+* Start a new sandbox based on the template with a new name on the current folder : ```sbx run -t my-template:v1 --name my-sandbox claude .```
 
 ## Claude in a Sandbox using a local LLM
 
@@ -53,10 +54,35 @@ I use
    I reach between 40 and 78 tokens/s when generating content
    [Here is how a 40 tokens/s looks like](https://mikeveerman.github.io/tokenspeed/?rate=40&mode=code)  
 - Qwen3.8-Flash-Next-oQ4e-mtp · 4bit
-  I start using it 
-  Will keep you posted
+  To be tested
 
-TO COME
+### Use the local API
+
+#### Reference : 
+
+- I did not used this one as it tried to always use llmman.
+  I don't want to use it now
+  ["Connect a custom endpoint"](https://docs.docker.com/ai/sandboxes/configuration/models/#connect-a-custom-endpoint)
+- Found that doc ["Run Claude Code in a Docker Sandbox with Docker Model Runner"](https://docs.docker.com/guides/claude-code-sandbox-model-runner/)
+
+#### Procedure
+
+1. Start OMLX and load the model you want
+2. Open OMLX Web Dashboard
+3. Allow local connection to port 8000 : ```sbx policy allow network localhost:8000```
+4. It suggests me ```ANTHROPIC_BASE_URL='http://127.0.0.1:8000' ANTHROPIC_AUTH_TOKEN='3121' ANTHROPIC_DEFAULT_OPUS_MODEL='Qwen3.8-Flash-Next-oQ4e-mtp' ANTHROPIC_DEFAULT_SONNET_MODEL='Qwen3.6-35B-A3B-bf16' ANTHROPIC_DEFAULT_HAIKU_MODEL='Qwen3.6-35B-A3B-bf16' API_TIMEOUT_MS=3000000 CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1 claude --disallowedTools LSP```
+5. Let's reuse this when running the sandbox ( but with host.docker.internal instead of 127.0.0.1 )
+   See ["Accessing host services from a sandbox"](https://docs.docker.com/ai/sandboxes/workflows/development/#accessing-host-services-from-a-sandbox)
+6. Run the sandbox ( the first time from template using ```-t my-template:v1```)
+   ```
+   sbx run --name sandbox-name -e ANTHROPIC_BASE_URL='http://host.docker.internal:8000' -e ANTHROPIC_DEFAULT_OPUS_MODEL='Qwen3.6-35B-A3B-bf16' -e ANTHROPIC_DEFAULT_SONNET_MODEL='Qwen3.6-35B-A3B-bf16' -e ANTHROPIC_DEFAULT_HAIKU_MODEL='Qwen3.6-35B-A3B-bf16' -e API_TIMEOUT_MS=3000000 -e CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1 claude .
+   ```
+7. You should see that Claude uses the right model ```Using Qwen3.6-35B-A3B-bf16 (auto-updated) · /model```
+8. Test Claude and have a look at ["OMLX dashboard"](http://127.0.0.1:8000/admin/dashboard?tab=status)
+
+## MCP
+
+I need also to configure MCP ( even a local one like IntelliJ ? )
 
 ## References
 
