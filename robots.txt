@@ -5,46 +5,7 @@ nositemap: "yes"
 
 Sitemap: {{ '/sitemap.xml' | absolute_url }}
 
-# Allowed search engines. Assets (images) and search index stay excluded.
-# Googlebot-Image/News/Video are denied separately below.
-User-agent: Googlebot
-User-agent: Bingbot
-User-agent: BingPreview
-User-agent: DuckDuckBot
-User-agent: Qwantbot
-User-agent: YandexBot
-User-agent: IbouBot
-User-agent: MojeekBot
-User-agent: Kagibot
-User-agent: Bravebot
-User-agent: Google-InspectionTool
-User-agent: Applebot
-User-agent: Owler
-User-agent: Lycos
-# Allow this corpus-building crawler
-User-agent: SpiderLing
-User-agent: SketchEngine
-Allow: /
-
-# Google image/news/video crawlers are denied (they would otherwise inherit Googlebot)
-User-agent: Googlebot-Image
-User-agent: Googlebot-News
-User-agent: Googlebot-Video
-Disallow: /
-
-# Explicitly denies all facebook ( meta-webindexer does not obey general directives )
-User-agent: FacebookBot
-User-agent: meta-webindexer
-User-agent: facebookexternalhit
-User-agent: meta-externalads
-User-agent: meta-externalagent
-User-agent: meta-externalfetcher
-Disallow: /
-
-# Explicit disallow as it does not respect global disallow
-User-agent: ExaSearchBot
-Disallow: /
-
-# Everyone else is blocked
+# Allow all crawlers on content
 User-agent: *
-Disallow: /
+Allow: /
+Disallow: /assets/
