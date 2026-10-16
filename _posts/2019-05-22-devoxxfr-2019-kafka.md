@@ -7,7 +7,6 @@ tags: ['Devoxx', 'Kafka']
 ---
 
 ## Introduction
-
 For english readers -> [Introduction to Kafka](https://christ-off.github.io/introduction_kafka)  
 J'ai regroupé dans ce post l'université, le Hands-on (filmé !) et la conférence Kafka à Devoxx FR 2019.  
 Pour une vue d'ensemble de DevoxxFR 2019 :
