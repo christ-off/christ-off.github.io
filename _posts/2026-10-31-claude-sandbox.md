@@ -82,7 +82,17 @@ I use
 
 ## MCP
 
-I need also to configure MCP ( even a local one like IntelliJ ? )
+I need also to configure MCPs 
+
+### IntelliJ
+
+This will give the Sandboxed Claude access to Intellij IDEA through it's own MCP
+
+1. We will use : ```http://127.0.0.1:64342/stream```
+2. Add IntelliJ as a MCP : ```sbx mcp add intellij --url http://127.0.0.1:64342/stream```
+   Ignore the warnings
+3. Start the Sandbox
+4. The MCP is added to the mcp gateway
 
 ## References
 
