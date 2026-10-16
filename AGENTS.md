@@ -4,6 +4,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Jekyll blog (GitHub Pages, https://christ-off.github.io), posts mostly in French. Ruby 3.2.3 (`.ruby-version`). No tests, no CI workflow; Dependabot updates bundler monthly.
 
+## Tools
+
+- Use playwright-cli to check site and pages look and feel
+
 ## Commands
 
 - Install: `etc/bundle_install.sh` (installs gems into `vendor/bundle`)
