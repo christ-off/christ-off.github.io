@@ -5,7 +5,7 @@ nositemap: "yes"
 
 Sitemap: {{ '/sitemap.xml' | absolute_url }}
 
-# Allow all crawlers on content
 User-agent: *
 Allow: /
 Disallow: /assets/
+
